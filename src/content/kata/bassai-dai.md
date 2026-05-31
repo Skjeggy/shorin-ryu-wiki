@@ -10,6 +10,7 @@ related:
   - "ranks/shodan"
   - "kata/bassai-sho"
   - "kata/naihanshin-shodan"
+  - "bunkai/bassai-dai-gimberline"
 keyPoints:
   - "Åpningsbevegelsene er karakteristiske og tolkes som inntrengning i motstanderens linje."
   - "Kata har en veksling mellom eksplosiv kraft og kontrollert flyt."
@@ -62,8 +63,8 @@ Mange av blokk-sekvensene i Bassai Dai tolkes som kontroll og låsing
 av motstanderens arm, ikke som rene blokker mot slag i lufta.
 Teknikken virker kun hvis utøveren er inne i motstanderens linje.
 
-> Bunkai-seksjon under utbygging. Bidra gjerne med dine tolkninger via
-> [CONTRIBUTING.md](/shorin-ryu-wiki/CONTRIBUTING.md).
+Se [Bassai Dai bunkai — Sensei Gimberline](../../bunkai/bassai-dai-gimberline/)
+for en praktisk gjennomgang med øvelser.
 
 ## Bassai Sho
 
