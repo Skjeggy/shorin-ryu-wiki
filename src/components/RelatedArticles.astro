@@ -1,0 +1,66 @@
+---
+import { getCollection } from 'astro:content';
+import { getUI, sectionOrder, type Lang, type SectionId } from '../i18n';
+
+interface Props {
+  related: string[];
+  lang: Lang;
+}
+
+const { related, lang } = Astro.props;
+const t = getUI(lang);
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+// Each `related` entry can be either a bare slug (we'll search every section)
+// or "section/slug" to point precisely.
+async function resolveRelated() {
+  const allCollections = await Promise.all(
+    sectionOrder.map(async (section) => {
+      const entries = await getCollection(section as SectionId);
+      return { section, entries };
+    })
+  );
+
+  const results = related
+    .map((ref) => {
+      const [maybeSection, maybeSlug] = ref.includes('/') ? ref.split('/') : [null, ref];
+      for (const group of allCollections) {
+        if (maybeSection && group.section !== maybeSection) continue;
+        const found = group.entries.find(
+          (entry) => entry.slug === maybeSlug && entry.data.lang === lang
+        );
+        if (found) {
+          return {
+            title: found.data.title,
+            section: group.section,
+            href: `${base}/${lang}/${group.section}/${found.slug}/`,
+          };
+        }
+      }
+      return null;
+    })
+    .filter((x): x is { title: string; section: string; href: string } => x !== null);
+
+  return results;
+}
+
+const items = await resolveRelated();
+---
+
+{items.length > 0 && (
+  <aside class="mt-12 not-prose border-t border-ink-200 pt-6">
+    <h2 class="text-lg font-semibold mb-3 text-ink-900">{t.article.related}</h2>
+    <ul class="grid sm:grid-cols-2 gap-3">
+      {items.map((item) => (
+        <li>
+          <a href={item.href} class="card">
+            <span class="block text-xs uppercase tracking-wider text-ink-500 mb-1">
+              {t.sections[item.section as SectionId].title}
+            </span>
+            <span class="text-ink-900 font-semibold">{item.title}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </aside>
+)}

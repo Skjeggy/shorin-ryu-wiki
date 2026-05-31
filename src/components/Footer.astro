@@ -1,0 +1,18 @@
+---
+import { getUI, type Lang } from '../i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = getUI(lang);
+const year = new Date().getFullYear();
+---
+
+<footer class="bg-ink-900 text-ink-300 border-t-4 border-accent mt-12">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-sm flex flex-col sm:flex-row sm:justify-between gap-2">
+    <p>© {year} {t.site.title}. {t.footer.rights}</p>
+    <p class="text-ink-400">{t.footer.builtWith}</p>
+  </div>
+</footer>

@@ -1,0 +1,6 @@
+---
+// Redirect the root URL to the default language (nb).
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const target = `${base}/nb/`;
+return Astro.redirect(target);
+---

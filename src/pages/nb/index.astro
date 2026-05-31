@@ -1,0 +1,93 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getUI, sectionOrder, type SectionId } from '../../i18n';
+
+const lang = 'nb';
+const t = getUI(lang);
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+async function countFor(section: SectionId) {
+  const entries = await getCollection(section, ({ data }) => data.lang === lang);
+  return entries.length;
+}
+
+const sections = await Promise.all(
+  sectionOrder.map(async (section) => ({
+    id: section,
+    title: t.sections[section].title,
+    description: t.sections[section].description,
+    href: `${base}/${lang}/${section}/`,
+    count: await countFor(section),
+  }))
+);
+
+const allEntries = (
+  await Promise.all(
+    sectionOrder.map(async (section) => {
+      const entries = await getCollection(section, ({ data }) => data.lang === lang);
+      return entries.map((e) => ({
+        title: e.data.title,
+        href: `${base}/${lang}/${section}/${e.slug}/`,
+        section,
+        updated: e.data.updated,
+      }));
+    })
+  )
+).flat();
+
+const latest = allEntries
+  .filter((e) => e.updated)
+  .sort((a, b) => (b.updated!.getTime() - a.updated!.getTime()))
+  .slice(0, 5);
+---
+
+<BaseLayout lang={lang}>
+  <section class="mb-12">
+    <p class="text-xs uppercase tracking-wider text-accent font-sans font-semibold mb-2">
+      {t.home.getStarted}
+    </p>
+    <h1 class="text-4xl sm:text-5xl font-serif text-ink-900 leading-tight mb-4">
+      {t.home.welcomeTitle}
+    </h1>
+    <p class="text-lg text-ink-700 max-w-3xl leading-relaxed">
+      {t.home.welcomeBody}
+    </p>
+  </section>
+
+  <section class="mb-12">
+    <h2 class="text-2xl font-serif text-ink-900 mb-5">{t.home.exploreSections}</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {sections.map((section) => (
+        <a href={section.href} class="card">
+          <div class="flex items-baseline justify-between">
+            <h3 class="text-lg font-semibold text-ink-900">{section.title}</h3>
+            <span class="text-xs text-ink-500 font-sans">{section.count}</span>
+          </div>
+          <p class="mt-1 text-sm text-ink-600">{section.description}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  {latest.length > 0 && (
+    <section class="mb-8">
+      <h2 class="text-2xl font-serif text-ink-900 mb-5">{t.home.latestUpdates}</h2>
+      <ul class="divide-y divide-ink-200 border-y border-ink-200">
+        {latest.map((entry) => (
+          <li>
+            <a href={entry.href} class="flex items-center justify-between py-3 no-underline group">
+              <div>
+                <span class="block text-xs uppercase tracking-wider text-ink-500 font-sans">
+                  {t.sections[entry.section as SectionId].title}
+                </span>
+                <span class="text-ink-900 group-hover:text-accent">{entry.title}</span>
+              </div>
+              <span class="text-ink-400">→</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+</BaseLayout>

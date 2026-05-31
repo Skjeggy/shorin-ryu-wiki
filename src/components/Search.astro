@@ -1,0 +1,40 @@
+---
+import { getUI, type Lang } from '../i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = getUI(lang);
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<div class="px-3 mb-3">
+  <div id="search" data-pagefind-ui></div>
+</div>
+
+<link rel="stylesheet" href={`${base}/pagefind/pagefind-ui.css`} />
+<script is:inline define:vars={{ base, placeholder: t.search.placeholder }}>
+  function initPagefind() {
+    if (typeof window === 'undefined') return;
+    if (window.__pagefindLoaded) return;
+    window.__pagefindLoaded = true;
+    const script = document.createElement('script');
+    script.src = `${base}/pagefind/pagefind-ui.js`;
+    script.onload = () => {
+      // eslint-disable-next-line no-undef
+      new PagefindUI({
+        element: '#search',
+        showSubResults: true,
+        showImages: false,
+        translations: {
+          placeholder: placeholder,
+        },
+      });
+    };
+    document.head.appendChild(script);
+  }
+  if (document.readyState !== 'loading') initPagefind();
+  else document.addEventListener('DOMContentLoaded', initPagefind);
+</script>

@@ -1,0 +1,79 @@
+---
+import { getCollection } from 'astro:content';
+import { getUI, sectionOrder, type Lang, type SectionId } from '../i18n';
+import Search from './Search.astro';
+
+interface Props {
+  lang: Lang;
+  currentPath?: string;
+}
+
+const { lang, currentPath = '' } = Astro.props;
+const t = getUI(lang);
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+// Gather entries for each section in the current language and group them.
+async function entriesFor(section: SectionId) {
+  const collection = await getCollection(section, ({ data }) => data.lang === lang);
+  return collection
+    .slice()
+    .sort((a, b) => {
+      const ao = a.data.order ?? 999;
+      const bo = b.data.order ?? 999;
+      if (ao !== bo) return ao - bo;
+      return a.data.title.localeCompare(b.data.title, lang);
+    })
+    .map((entry) => ({
+      slug: entry.slug,
+      title: entry.data.title,
+      href: `${base}/${lang}/${section}/${entry.slug}/`,
+    }));
+}
+
+const groups = await Promise.all(
+  sectionOrder.map(async (section) => ({
+    id: section,
+    title: t.sections[section].title,
+    indexHref: `${base}/${lang}/${section}/`,
+    entries: await entriesFor(section),
+  }))
+);
+
+const homeHref = `${base}/${lang}/`;
+---
+
+<aside
+  id="sidebar"
+  class="hidden lg:flex flex-col w-72 shrink-0 bg-white border-r border-ink-200 h-[calc(100vh-73px)] sticky top-0 overflow-y-auto"
+>
+  <nav class="py-4 text-sm" aria-label={t.nav.menu}>
+    <Search lang={lang} />
+
+    <a
+      href={homeHref}
+      class:list={['nav-link mx-2', currentPath === homeHref && 'nav-link-active']}
+    >
+      {t.nav.home}
+    </a>
+
+    {groups.map((group) => (
+      <div class="mb-2">
+        <a href={group.indexHref} class="section-heading hover:text-ink-700 no-underline block">
+          {group.title}
+        </a>
+        <ul class="space-y-0.5">
+          {group.entries.map((entry) => (
+            <li>
+              <a
+                href={entry.href}
+                class:list={['nav-link mx-2', currentPath === entry.href && 'nav-link-active']}
+              >
+                {entry.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    ))}
+  </nav>
+</aside>

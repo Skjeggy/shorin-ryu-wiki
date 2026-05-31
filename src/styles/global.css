@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-ink-50 text-ink-800 font-serif antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif text-ink-900;
+  }
+  a {
+    @apply text-accent hover:text-accent-dark underline-offset-4;
+  }
+  code {
+    @apply font-mono text-sm bg-ink-100 px-1 py-0.5 rounded;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply block px-3 py-1.5 rounded text-ink-700 hover:bg-ink-100 hover:text-ink-900 no-underline transition-colors;
+  }
+  .nav-link-active {
+    @apply bg-ink-200 text-ink-900 font-semibold;
+  }
+  .section-heading {
+    @apply text-xs uppercase tracking-wider text-ink-500 font-sans font-semibold mt-4 mb-1 px-3;
+  }
+  .card {
+    @apply block bg-white rounded-lg border border-ink-200 p-5 hover:border-accent hover:shadow-md transition-all no-underline;
+  }
+}
+
+/* Pagefind UI overrides */
+:root {
+  --pagefind-ui-scale: 0.9;
+  --pagefind-ui-primary: #8b1d1d;
+  --pagefind-ui-text: #2c2620;
+  --pagefind-ui-background: #ffffff;
+  --pagefind-ui-border: #d7cdba;
+  --pagefind-ui-tag: #ece7dc;
+  --pagefind-ui-border-width: 1px;
+  --pagefind-ui-border-radius: 6px;
+  --pagefind-ui-font: 'Inter', system-ui, sans-serif;
+}

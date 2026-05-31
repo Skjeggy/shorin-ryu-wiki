@@ -1,0 +1,61 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import ArticleLayout from '../../../layouts/ArticleLayout.astro';
+import { sectionOrder, type SectionId } from '../../../i18n';
+
+const lang = 'nb';
+
+type AnyEntry =
+  | CollectionEntry<'ranks'>
+  | CollectionEntry<'kata'>
+  | CollectionEntry<'techniques'>
+  | CollectionEntry<'bunkai'>
+  | CollectionEntry<'ridori'>
+  | CollectionEntry<'training-sessions'>;
+
+export async function getStaticPaths() {
+  const sections: SectionId[] = [
+    'ranks',
+    'kata',
+    'techniques',
+    'bunkai',
+    'ridori',
+    'training-sessions',
+  ];
+  const all = await Promise.all(
+    sections.map(async (section) => {
+      const entries = await getCollection(section, ({ data }) => data.lang === 'nb');
+      return entries.map((entry) => ({
+        params: { section, slug: entry.slug },
+        props: { entry },
+      }));
+    })
+  );
+  return all.flat();
+}
+
+interface Props {
+  entry: AnyEntry;
+}
+
+const { entry } = Astro.props;
+if (!sectionOrder.includes(entry.data.section)) {
+  throw new Error(`Unknown section in entry: ${entry.data.section}`);
+}
+const { Content } = await entry.render();
+const data = entry.data;
+---
+
+<ArticleLayout
+  title={data.title}
+  description={data.description}
+  section={data.section as SectionId}
+  rank={'rank' in data ? data.rank : undefined}
+  tags={data.tags}
+  related={data.related}
+  image={data.image}
+  lang={lang}
+  updated={data.updated}
+>
+  <Content />
+</ArticleLayout>

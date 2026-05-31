@@ -1,0 +1,22 @@
+{
+  "name": "shorin-ryu-wiki",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build && pagefind --site dist",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^5.1.4",
+    "astro": "^4.16.18",
+    "tailwindcss": "^3.4.17"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.15",
+    "pagefind": "^1.2.0"
+  }
+}
