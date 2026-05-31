@@ -8,7 +8,8 @@ description: "Fjerde dan. Kushanku Sho og Kushanku Dai. Fjorten års erfaring kr
 tags: ["dan", "svart belte", "yondan"]
 related:
   - "ranks/sandan"
-  - "kata/kushanku"
+  - "kata/kusanku-sho"
+  - "kata/kusanku-dai"
 requiredKata:
   - "Kushanku Sho"
   - "Kushanku Dai"

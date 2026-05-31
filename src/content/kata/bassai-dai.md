@@ -9,7 +9,7 @@ related:
   - "ranks/1-kyu"
   - "ranks/shodan"
   - "kata/bassai-sho"
-  - "kata/naifanchin-shodan"
+  - "kata/naihanshin-shodan"
 keyPoints:
   - "Åpningsbevegelsene er karakteristiske og tolkes som inntrengning i motstanderens linje."
   - "Kata har en veksling mellom eksplosiv kraft og kontrollert flyt."

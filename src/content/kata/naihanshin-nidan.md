@@ -7,7 +7,7 @@ description: "Andre kata i Naihanshin-serien. Bygger på Shodan med nye håndtek
 tags: ["naihanshin", "kata", "nærkamp", "nidan"]
 related:
   - "ranks/nidan"
-  - "kata/naifanchin-shodan"
+  - "kata/naihanshin-shodan"
   - "kata/naihanshin-sandan"
   - "ridori/oversikt"
 keyPoints:
@@ -38,7 +38,7 @@ Som Naihanshin Shodan: en **rett sidelinje**. Kata utføres ved å bevege seg si
 
 ### Kontinuitet fra Shodan
 
-Bunkai fra Naihanshin Nidan deler samme grunnprinsipper som [Naihanshin Shodan](../naifanchin-shodan/): arbeid på innsiden av motstanderens linje, senterbasert kraft og korte, effektive bevegelser. De nye teknikkene gir variasjon i angrepsvinkler og kontrollteknikker.
+Bunkai fra Naihanshin Nidan deler samme grunnprinsipper som [Naihanshin Shodan](../naihanshin-shodan/): arbeid på innsiden av motstanderens linje, senterbasert kraft og korte, effektive bevegelser. De nye teknikkene gir variasjon i angrepsvinkler og kontrollteknikker.
 
 ### Nye håndteknikker som alternativer
 

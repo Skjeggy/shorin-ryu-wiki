@@ -8,7 +8,7 @@ tags: ["naihanshin", "kata", "nærkamp", "nidan"]
 related:
   - "ranks/nidan"
   - "kata/naihanshin-nidan"
-  - "kata/naifanchin-shodan"
+  - "kata/naihanshin-shodan"
   - "ridori/oversikt"
 keyPoints:
   - "Den mest avanserte av de tre Naihanshin-kataene."

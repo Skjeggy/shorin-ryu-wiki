@@ -4,21 +4,21 @@ section: ranks
 rank: "Nidan"
 order: 2
 lang: nb
-description: "Andre dan. Naifanchin-trilogien fullføres, pluss en spesiell kata valgt av hovedtrener."
+description: "Andre dan. Naihanshin-trilogien fullføres, pluss en spesiell kata valgt av hovedtrener."
 tags: ["dan", "svart belte", "nidan"]
 related:
   - "ranks/shodan"
   - "ranks/sandan"
-  - "kata/naifanchin-shodan"
+  - "kata/naihanshin-shodan"
 requiredKata:
-  - "Naifanchin Shodan"
-  - "Naifanchin Nidan"
-  - "Naifanchin Sandan"
+  - "Naihanshin Shodan"
+  - "Naihanshin Nidan"
+  - "Naihanshin Sandan"
   - "Én spesiell kata (valgt av ansvarlig hovedtrener)"
 techniques:
   - "I henhold til påkrevde kata"
 senseiNotes: |
-  På Nidan fullføres hele Naifanchin-serien. Teknikkene er «i henhold
+  På Nidan fullføres hele Naihanshin-serien. Teknikkene er «i henhold
   til kata» — det forventes at utøveren selv kan identifisere og forklare
   teknikker og stillinger fra kataene. Antall treningsøkter fastsettes av
   ansvarlig hovedtrener. Minstekrav er 6,5 år total erfaring.
@@ -39,13 +39,13 @@ fra alle tidligere grader.
 
 ### Kata
 
-- **Naifanchin Shodan** — fullstendig, med høy teknisk kvalitet.
-- **Naifanchin Nidan** — fullstendig.
-- **Naifanchin Sandan** — fullstendig.
+- **Naihanshin Shodan** — fullstendig, med høy teknisk kvalitet.
+- **Naihanshin Nidan** — fullstendig.
+- **Naihanshin Sandan** — fullstendig.
 - **Én spesiell kata** valgt og godkjent av ansvarlig hovedtrener.
 
-Naifanchin-trilogien er bærebjelken i Shorinryu Kenshinkai-pensumet
-på dette nivået. Se [Naifanchin Shodan](../kata/naifanchin-shodan/) for
+Naihanshin-trilogien er bærebjelken i Shorinryu Kenshinkai-pensumet
+på dette nivået. Se [Naihanshin Shodan](../kata/naihanshin-shodan/) for
 detaljer om prinsippene.
 
 ### Kumite

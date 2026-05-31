@@ -10,7 +10,7 @@ related:
   - "ranks/9-kyu"
   - "kata/fukyu-ichi"
   - "kata/pinan-shodan"
-  - "kata/naihanchi-shodan"
+  - "kata/naihanshin-shodan"
 updated: 2025-08-05
 ---
 

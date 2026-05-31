@@ -3,10 +3,10 @@ title: "Hiki-uke fra Naihanchi som grep og kontroll"
 section: bunkai
 order: 1
 lang: nb
-description: "Frittstående bunkai-artikkel: anvendelsen av hiki-uke-bevegelsen fra Naihanchi Shodan i nærkamp."
+description: "Frittstående bunkai-artikkel: anvendelsen av hiki-uke-bevegelsen fra Naihanshin Shodan i nærkamp."
 tags: ["bunkai", "naihanchi", "hiki-uke", "nærkamp"]
 related:
-  - "kata/naihanchi-shodan"
+  - "kata/naihanshin-shodan"
   - "ridori/oversikt"
   - "training-sessions/bunkai-partnerarbeid"
 updated: 2025-10-12
@@ -15,7 +15,7 @@ updated: 2025-10-12
 ## Bakgrunn
 
 Det som ofte oversettes som «trekkblokk» (**hiki-uke**) i
-[Naihanchi Shodan](../kata/naihanchi-shodan/) er på papiret en blokk
+[Naihanshin Shodan](../kata/naihanshin-shodan/) er på papiret en blokk
 som trekker en angripende arm inn mot egen kropp. I praksis er
 bevegelsen langt mer interessant tolket som et **grep** — en kontroll
 av motstanderens arm som forbereder neste teknikk.

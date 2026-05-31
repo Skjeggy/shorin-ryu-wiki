@@ -8,7 +8,7 @@ tags: ["bassai", "kata", "avansert"]
 related:
   - "ranks/shodan"
   - "kata/bassai-dai"
-  - "kata/naifanchin-shodan"
+  - "kata/naihanshin-shodan"
 keyPoints:
   - "Kortere enn Bassai Dai, men krever samme tekniske modenhet."
   - "Kreves på Shodan-gradering."

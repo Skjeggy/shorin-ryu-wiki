@@ -4,7 +4,8 @@
       "WebFetch(domain:shorinryu.no)",
       "mcp__Claude_in_Chrome__tabs_context_mcp",
       "WebFetch(domain:kksor.com)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(git push:*)"
     ]
   }
 }

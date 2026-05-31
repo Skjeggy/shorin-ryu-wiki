@@ -6,7 +6,7 @@ lang: nb
 description: "Introduksjon til Ridori, dens plass i Shorin-Ryu, prinsipper og typiske anvendelser."
 tags: ["ridori", "prinsipper", "nærkamp"]
 related:
-  - "kata/naihanchi-shodan"
+  - "kata/naihanshin-shodan"
   - "ranks/1-kyu"
   - "ranks/shodan"
   - "training-sessions/bunkai-partnerarbeid"

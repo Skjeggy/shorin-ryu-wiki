@@ -5,11 +5,11 @@ order: 3
 lang: nb
 duration: "90 minutter"
 level: "Avansert / 2. kyu og oppover"
-focus: "Bunkai fra Naihanchi Shodan, kontroll og overgang til Ridori"
+focus: "Bunkai fra Naihanshin Shodan, kontroll og overgang til Ridori"
 description: "En partnerintensiv økt for høyere kyu-elever og dan-grader. Bygger bro mellom kata og funksjonell anvendelse."
 tags: ["bunkai", "økt", "naihanchi", "ridori", "avansert"]
 related:
-  - "kata/naihanchi-shodan"
+  - "kata/naihanshin-shodan"
   - "ridori/oversikt"
   - "ranks/1-kyu"
   - "ranks/shodan"
@@ -18,13 +18,13 @@ updated: 2025-10-12
 
 ## Formål
 
-Trene anvendelser fra **Naihanchi Shodan** med fokus på struktur,
+Trene anvendelser fra **Naihanshin Shodan** med fokus på struktur,
 balansebrudd og overgang. Mot slutten av økten introduseres elementer
 av **Ridori** for å vise hvordan bunkai-sekvensene kan flyte sammen.
 
 Forutsetninger:
 
-- Solid kjennskap til Naihanchi Shodan.
+- Solid kjennskap til Naihanshin Shodan.
 - Erfaring med kontrollert partnerarbeid.
 - Trygg dojo-kultur — denne økten innebærer mye nær kontakt.
 
@@ -49,14 +49,14 @@ Forutsetninger:
 
 ## Hoveddel (60 minutter)
 
-### Blokk 1 — Naihanchi Shodan, rolig gjennomkjøring (10 min)
+### Blokk 1 — Naihanshin Shodan, rolig gjennomkjøring (10 min)
 
 To gjennomkjøringer i langsomt tempo, med pust som markør for hver
 bevegelse. Innstill gruppen på fokuset for økten.
 
 ### Blokk 2 — bunkai-element 1: hiki-uke som grep (15 min)
 
-Se [Naihanchi Shodan](../kata/naihanchi-shodan/) for prinsippet.
+Se [Naihanshin Shodan](../kata/naihanshin-shodan/) for prinsippet.
 
 Sekvens i partnerarbeid:
 

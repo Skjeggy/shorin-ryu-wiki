@@ -8,7 +8,7 @@ tags: ["pinan", "kata", "mellomnivå"]
 related:
   - "ranks/5-kyu"
   - "kata/fukyu-ichi"
-  - "kata/naihanchi-shodan"
+  - "kata/naihanshin-shodan"
   - "training-sessions/pinan-fokus"
 keyPoints:
   - "Skiftet mellom zenkutsu og kokutsu skal være rent, uten tap av høyde."

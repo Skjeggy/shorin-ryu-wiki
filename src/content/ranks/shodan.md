@@ -4,19 +4,19 @@ section: ranks
 rank: "Shodan"
 order: 1
 lang: nb
-description: "Første dan-grad. Krav: Bassai Dai/Sho, Naifanchin Shodan/Nidan, kast- og feiemetoder, minimum 16 år."
+description: "Første dan-grad. Krav: Bassai Dai/Sho, Naihanshin Shodan/Nidan, kast- og feiemetoder, minimum 16 år."
 tags: ["dan", "svart belte", "shodan"]
 related:
   - "ranks/1-kyu"
   - "ranks/nidan"
   - "kata/bassai-dai"
-  - "kata/naifanchin-shodan"
+  - "kata/naihanshin-shodan"
   - "ridori/oversikt"
 requiredKata:
   - "Bassai Dai"
   - "Bassai Sho"
-  - "Naifanchin Shodan"
-  - "Naifanchin Nidan"
+  - "Naihanshin Shodan"
+  - "Naihanshin Nidan"
 techniques:
   - "Uchi-hachiji-dachi (pluss alle stillinger fra kata)"
   - "Nami-gaeshi-uke, Kaishu-jodan-morote-uke, Empi-bogyo"
@@ -70,8 +70,8 @@ blant de mest omfangsrike i pensumet.
 
 - **Bassai Dai** — fullstendig.
 - **Bassai Sho** — fullstendig.
-- **Naifanchin Shodan** — fullstendig.
-- **Naifanchin Nidan** — fullstendig.
+- **Naihanshin Shodan** — fullstendig.
+- **Naihanshin Nidan** — fullstendig.
 
 ### Kast og feiemetoder
 
