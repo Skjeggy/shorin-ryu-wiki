@@ -1,41 +1,29 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-const lang = 'nb';
+title: "Ord og uttrykk"
+section: techniques
+category: annet
+order: 99
+lang: nb
+description: "Japanske begreper brukt i Shorinryu Kenshinkai, med norsk forklaring. Nyttig oppslagsverk under trening og gradering."
+tags: ["terminologi", "japansk", "referanse"]
+related:
+  - "techniques/dachi"
+updated: 2026-05-31
 ---
 
-<BaseLayout title="Ord og uttrykk" lang={lang} description="Ordliste over japanske begreper brukt i Shorinryu Kenshinkai – stillinger, slag, spark, blokkeringer, kroppsdeler og kommandoer.">
-  <article data-pagefind-body>
-    <header class="mb-8 not-prose">
-      <p class="text-xs uppercase tracking-wider text-accent font-sans font-semibold mb-2">
-        Referanse
-      </p>
-      <h1 class="text-4xl font-serif text-ink-900 leading-tight">Ord og uttrykk</h1>
-      <p class="mt-3 text-lg text-ink-600">
-        Japanske begreper brukt i Shorinryu Kenshinkai, med norsk forklaring.
-        Nyttig som oppslagsverk under trening og gradering.
-      </p>
-    </header>
+**Hopp til seksjon:**
+[Generelle begreper](#generelle-begreper) ·
+[Slag](#slag--zuki-og-uchi) ·
+[Spark](#spark--geri) ·
+[Blokkeringer](#blokkeringer--uke) ·
+[Stillinger](#stillinger--dachi) ·
+[Kroppsdeler](#kroppsdeler-og-slagflater) ·
+[Retninger](#retninger-og-bevegelse) ·
+[Tall](#tall)
 
-    <nav class="not-prose mb-10 flex flex-wrap gap-2 text-sm border-b border-ink-200 pb-6">
-      {[
-        ['#generelt', 'Generelle begreper'],
-        ['#slag', 'Slag (Zuki)'],
-        ['#spark', 'Spark (Geri)'],
-        ['#blokkeringer', 'Blokkeringer (Uke)'],
-        ['#stillinger', 'Stillinger (Dachi)'],
-        ['#kroppsdeler', 'Kroppsdeler'],
-        ['#retninger', 'Retninger og bevegelse'],
-        ['#tall', 'Tall'],
-      ].map(([href, label]) => (
-        <a href={href} class="px-3 py-1 bg-ink-100 text-ink-700 rounded hover:bg-ink-200 no-underline">
-          {label}
-        </a>
-      ))}
-    </nav>
+---
 
-    <div class="prose prose-lg max-w-none">
-
-## Generelle begreper {#generelt}
+## Generelle begreper
 
 | Japansk | Norsk / forklaring |
 |---|---|
@@ -71,9 +59,9 @@ const lang = 'nb';
 
 ---
 
-## Slag — Zuki og Uchi {#slag}
+## Slag — Zuki og Uchi
 
-**Zuki** = slag (enkelt); **Tsuki** = slag (flertall)
+**Zuki** = slag (enkelt) · **Tsuki** = slag (flertall)
 
 | Teknikk | Forklaring |
 |---|---|
@@ -101,7 +89,7 @@ const lang = 'nb';
 
 ---
 
-## Spark — Geri {#spark}
+## Spark — Geri
 
 **Geri** = spark
 
@@ -128,7 +116,7 @@ const lang = 'nb';
 
 ---
 
-## Blokkeringer — Uke {#blokkeringer}
+## Blokkeringer — Uke
 
 **Uke** = blokk / mottakelse
 
@@ -163,9 +151,9 @@ const lang = 'nb';
 
 ---
 
-## Stillinger — Dachi {#stillinger}
+## Stillinger — Dachi
 
-**Dachi** = stilling
+**Dachi** = stilling. Se også [Dachi — stillinger i Shorin-Ryu](../dachi/) for detaljer om de viktigste stillingene.
 
 | Stilling | Forklaring |
 |---|---|
@@ -175,9 +163,9 @@ const lang = 'nb';
 | **Shizen-dachi / Shizentai-dachi** | Naturlig stilling |
 | **Zenkutsu-dachi** | Forlent stilling — vekt fremover |
 | **Kokutsu-dachi** | Tilbakelent stilling — vekt bakover |
-| **Naifanchin-dachi / Naihanchin-dachi** | Sidelengs stilling med innovervridde knær |
+| **Naifanchin-dachi** | Sidelengs stilling med innovervridde knær |
 | **Kiba-dachi / Shiko-dachi** | Ridestilling |
-| **Neko-ashi-dachi / Nekoashi-dachi** | Kattestilling — vekt nesten helt på bakre ben |
+| **Neko-ashi-dachi** | Kattestilling — vekt nesten helt på bakre ben |
 | **Kosa-dachi** | Kryss-stilling |
 | **Sanchin-dachi** | Timeglass-stilling med innovervridde føtter |
 | **Uchi-hachiji-dachi** | Innovervendt V-stilling |
@@ -187,12 +175,9 @@ const lang = 'nb';
 | **Moto-dachi** | Grunnstilling (halvt forlent) |
 | **Gyaku-zenkutsu-dachi** | Omvendt forlent stilling |
 
-Se artikkelen [Dachi — stillinger i Shorin-Ryu](/shorin-ryu-wiki/nb/techniques/dachi/)
-for detaljer og bruks­kontekst for de viktigste stillingene.
-
 ---
 
-## Kroppsdeler og slagflater {#kroppsdeler}
+## Kroppsdeler og slagflater
 
 | Japansk | Norsk |
 |---|---|
@@ -226,7 +211,7 @@ for detaljer og bruks­kontekst for de viktigste stillingene.
 
 ---
 
-## Retninger og bevegelse {#retninger}
+## Retninger og bevegelse
 
 | Japansk | Norsk |
 |---|---|
@@ -247,7 +232,7 @@ for detaljer og bruks­kontekst for de viktigste stillingene.
 
 ---
 
-## Tall {#tall}
+## Tall
 
 Brukes til å telle repetisjoner og sekvenser under trening.
 
@@ -269,7 +254,3 @@ Brukes til å telle repetisjoner og sekvenser under trening.
 | 40 | Yon Ju |
 | 70 | Nana Ju |
 | 100 | **Hyaku** |
-
-    </div>
-  </article>
-</BaseLayout>
