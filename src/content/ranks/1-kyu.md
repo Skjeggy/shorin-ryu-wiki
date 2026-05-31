@@ -4,65 +4,82 @@ section: ranks
 rank: "1. kyu"
 order: 10
 lang: nb
-description: "Siste gradering før Shodan. Bredt repertoar av kata, fri kumite og dyp bunkai-forståelse forventes."
+description: "Siste gradering før svart belte. Pinan Godan og Bassai Dai, bredt teknikkrepertoar og falleknikker."
 tags: ["avansert", "brunt belte", "kyu"]
 related:
-  - "kata/passai"
-  - "kata/kusanku"
+  - "ranks/2-kyu"
+  - "ranks/shodan"
+  - "kata/bassai-dai"
   - "ridori/oversikt"
   - "training-sessions/bunkai-partnerarbeid"
 requiredKata:
-  - "Fukyu Ichi & Ni"
-  - "Pinan Shodan–Godan"
-  - "Naihanchi Shodan"
-  - "Naihanchi Nidan"
-  - "Passai"
+  - "Pinan Godan"
+  - "Bassai Dai"
 techniques:
-  - "Avanserte kombinasjoner med stillingsskifte"
-  - "Jiyu-kumite (fri kumite)"
-  - "Tai-sabaki (kroppsforflytning)"
-  - "Henka (variasjoner) i bunkai"
+  - "Alle stillinger fra påkrevde kata"
+  - "Jodan-juji-uke, Kakiwake-uke, Mikazuki-geri-uke"
+  - "Yama-zuki, Hirate-uchi, Morote-zuki, Morote-tettsui-uchi, Seiken-hasami-zuki, Sokumen-zuki"
+  - "Tenshin-ura-mawashi-geri, Kakato-geri, De-ashi-barai, Nidan-geri"
+  - "Falleteknikker: Mae-ukemi, Mae-mawari-ukemi, Yoko-ukemi, Ushiro-ukemi, Ushiro-kaiten-ukemi"
 senseiNotes: |
-  På 1. kyu forventer vi modenhet — både teknisk og som dojo-medlem.
-  Eleven skal kunne demonstrere kata med klar intensjon, ikke bare
-  riktig form. Bunkai bør forklares verbalt og vises mot motstand.
-  Forberedelsen til Shodan begynner allerede her: forvent at eleven
-  hjelper til med å lære yngre kyu-grader.
-updated: 2025-10-22
+  1. kyu er det siste steget før Shodan. Eleven skal beherske alle
+  grunnleggende teknikker i fri sparing og vise at de har internalisert
+  pensumet — ikke bare utfører det. Falleteknikker (ukemi) er obligatorisk.
+  Minstekrav er 2,5 år siden siste gradering (normalt 4 år) og 60
+  treningsøkter.
+updated: 2026-05-31
 ---
 
 ## Krav til 1. kyu
 
-På dette nivået er teknikken godt etablert. Vi ser etter dybde,
-sammenheng og evne til å anvende det eleven har lært.
+1. kyu er den siste kyu-graden og forbereder eleven til Shodan.
+Minstekrav: **2,5 år** siden siste gradering (normalt **4 år**) og
+**60 treningsøkter**.
+
+### Blokkeringer (Uke)
+
+- **Jodan-juji-uke** — høy korsblokk.
+- **Kakiwake-uke** — splittblokk.
+- **Mikazuki-geri-uke** — halvmånespark brukt som blokk.
+
+### Håndteknikker
+
+- **Yama-zuki** — fjellslag (dobbel slag i ulike høyder).
+- **Hirate-uchi** — åpen håndsslag.
+- **Morote-zuki** — toarmsslag.
+- **Morote-tettsui-uchi** — toarms hammernevesslag.
+- **Seiken-hasami-zuki** — sakseslag.
+- **Sokumen-zuki** — sideslag.
+
+### Spark (Geri)
+
+- **Tenshin-ura-mawashi-geri** — vendende bakside-rundspark.
+- **Kakato-geri** — hælspark.
+- **De-ashi-barai** — fotsveip.
+- **Nidan-geri** — dobbeltspark (spark med to ben).
 
 ### Kata
 
-- Alle **Pinan** og **Naihanchi Shodan/Nidan** i full kvalitet.
-- **Passai** — fullstendig, med korrekt tolkning av åpningsbevegelsene.
-- Eleven skal kunne velge én kata fritt for fordypning og forklare
-  hvorfor.
+- **Pinan Godan** — befestelse med høy kvalitet.
+- **Bassai Dai** — fullstendig.
 
-### Bunkai
+### Falleteknikker (Ukemi)
 
-- Vis minst to anvendelser per Pinan-kata, samt minst tre anvendelser
-  fra **Naihanchi Shodan**.
-- Forklar prinsippene bak valgene — hva som angripes, hvordan strukturen
-  brytes ned.
+Obligatorisk på 1. kyu:
+
+- **Mae-ukemi** — fall fremover.
+- **Mae-mawari-ukemi** — rullende fall fremover.
+- **Yoko-ukemi** — fall til siden.
+- **Ushiro-ukemi** — fall bakover.
+- **Ushiro-kaiten-ukemi** — rullende fall bakover.
 
 ### Kumite
 
-- **Jiyu-ippon-kumite** med kontroll og tydelig kime.
-- **Jiyu-kumite** med fokus på avstand, timing og strategi, ikke bare
-  treff.
+**Ju-kumite** — eleven skal vise evne til å bruke alle grunnleggende
+teknikker effektivt i fri sparing.
 
-### Ridori-introduksjon
+### Merknader
 
-Eleven skal kjenne grunnprinsippene i **Ridori** og kunne vise enkle
-flytende parteranvendelser. Se [Ridori — oversikt](../ridori/oversikt/).
-
-### Sensei-perspektiv
-
-Brunt belte er det stedet hvor mange møter sin egen utålmodighet. Vi
-vurderer like mye eleven som dojo-medlem som vi vurderer teknikken: er
-vedkommende en god partner, en god rollemodell?
+Overgangen til Shodan forutsetter at eleven har internalisert hele
+kyu-pensumet. På 1. kyu begynner mange instruktører å la eleven assistere
+i undervisningen av yngre kyu-grader.

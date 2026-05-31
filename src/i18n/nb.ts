@@ -13,6 +13,7 @@ export const nb = {
     bunkai: 'Bunkai',
     ridori: 'Ridori',
     trainingSessions: 'Treningsøkter',
+    about: 'Om stilen',
     search: 'Søk',
     skipToContent: 'Hopp til hovedinnhold',
     menu: 'Meny',

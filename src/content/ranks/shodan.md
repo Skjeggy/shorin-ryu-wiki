@@ -4,71 +4,94 @@ section: ranks
 rank: "Shodan"
 order: 1
 lang: nb
-description: "Første dan-grad. Ikke et sluttpunkt, men en bekreftelse på at eleven har lagt grunnmuren."
+description: "Første dan-grad. Krav: Bassai Dai/Sho, Naifanchin Shodan/Nidan, kast- og feiemetoder, minimum 16 år."
 tags: ["dan", "svart belte", "shodan"]
 related:
-  - "kata/kusanku"
-  - "kata/naihanchi-shodan"
+  - "ranks/1-kyu"
+  - "ranks/nidan"
+  - "kata/bassai-dai"
+  - "kata/naifanchin-shodan"
   - "ridori/oversikt"
 requiredKata:
-  - "Alle Pinan-kata"
-  - "Naihanchi Shodan, Nidan, Sandan"
-  - "Passai"
-  - "Kusanku"
+  - "Bassai Dai"
+  - "Bassai Sho"
+  - "Naifanchin Shodan"
+  - "Naifanchin Nidan"
 techniques:
-  - "Fri demonstrasjon av valgfri kata med bunkai"
-  - "Jiyu-kumite mot flere partnere"
-  - "Tai-sabaki under press"
-  - "Ridori-anvendelser i flyt"
+  - "Uchi-hachiji-dachi (pluss alle stillinger fra kata)"
+  - "Nami-gaeshi-uke, Kaishu-jodan-morote-uke, Empi-bogyo"
+  - "Hiraken-zuki, Sayu-zuki"
+  - "Mae-tobi-geri, Yoko-tobi-geri, Tenshin-ushiro-geri, Suri-ashi-geri"
+  - "Kast og feier: Kaiten-barai, Okuri-ashi-barai, Harai-goshi, O-uchi-gari, Ushiro-hiki-otoshi, O-soto-gari, Do-basami"
 senseiNotes: |
-  Shodan betyr «det første trinn». Vi forventer at den nye dan-graden
-  forstår dette — det er begynnelsen på den egentlige treningen, ikke
-  slutten på pensumet. Verdier som ydmykhet, ansvar i dojoen og evne
-  til å veilede yngre elever vektlegges like tungt som teknisk dyktighet.
-updated: 2025-11-15
+  Shodan betyr «det første skritt». Minstekrav er 4,5 år total erfaring
+  (normalt 5,5 år), 60 treningsøkter siden 1. kyu, og minimum 16 år.
+  For utøvere under 30 år er turnering-deltakelse obligatorisk.
+  Teknisk dyktighet alene er ikke tilstrekkelig — kandidaten vurderes
+  også som dojo-medlem og rollemodell.
+updated: 2026-05-31
 ---
 
-## Krav til Shodan
+## Krav til Shodan (1. dan)
 
-Shodan-graderingen tester bredden og dybden av alt eleven har lært.
-Pensumet kan virke kjent, men nivået på utførelsen forventes å være
-modent og bevisst.
+Shodan er den første dan-graden i Shorinryu Kenshinkai. Kravene er
+blant de mest omfangsrike i pensumet.
+
+**Minstekrav:**
+- **4,5 år** total treningserfaring (normalt 5,5 år).
+- **60 treningsøkter** siden 1. kyu.
+- Minimum **16 år** gammel.
+- For kandidater under 30 år: **deltakelse i turnering** er obligatorisk.
+
+### Nye stillinger (Dachi)
+
+- **Uchi-hachiji-dachi** — innovervendt V-stilling.
+- Alle stillinger fra påkrevde kata.
+
+### Blokkeringer (Uke)
+
+- **Nami-gaeshi-uke** — bølgespark brukt som blokk.
+- **Kaishu-jodan-morote-uke** — høy toarms åpenhåndsblokk.
+- **Empi-bogyo** — albuedefensjon.
+
+### Håndteknikker
+
+- **Hiraken-zuki** — halvknyttneve-slag.
+- **Sayu-zuki** — slag til begge sider simultant.
+
+### Spark (Geri)
+
+- **Mae-tobi-geri** — hoppende frontspark.
+- **Yoko-tobi-geri** — hoppende sidespark.
+- **Tenshin-ushiro-geri** — vendende bakspark.
+- **Suri-ashi-geri** — glidende spark.
 
 ### Kata
 
-- **Alle Pinan-kata** (Shodan til Godan), fritt valgt rekkefølge på
-  graderingen.
-- **Naihanchi Shodan, Nidan, Sandan**.
-- **Passai** og **Kusanku** — den siste demonstreres med tydelig
-  forståelse av lange linjer og innebygde sprang.
-- Én **valgfri kata** med bunkai-demonstrasjon, fritt valgt fra
-  pensumet. Eleven skal kunne begrunne valget.
+- **Bassai Dai** — fullstendig.
+- **Bassai Sho** — fullstendig.
+- **Naifanchin Shodan** — fullstendig.
+- **Naifanchin Nidan** — fullstendig.
 
-### Bunkai
+### Kast og feiemetoder
 
-Eleven skal kunne demonstrere bunkai for:
+Shodan-pensumet inkluderer en rekke kast og feier:
 
-- Minst tre bevegelser fra **Naihanchi Shodan**.
-- Minst tre bevegelser fra **Passai**.
-- Minst to bevegelser fra en valgfri Pinan-kata.
-
-Demonstrasjonen skal vise prinsipper, ikke bare koreografi: avstand,
-balansebrudd, kontroll av motstanderens linje.
+- **Kaiten-barai** — roterende feie.
+- **Okuri-ashi-barai** — fotsveip med ledende fot.
+- **Harai-goshi** — hoftekast med feie.
+- **O-uchi-gari** — stor innsidehekt.
+- **Ushiro-hiki-otoshi** — bakover trekkfall.
+- **O-soto-gari** — stor utsidehekt.
+- **Do-basami** — kroppssaks.
 
 ### Kumite
 
-- **Jiyu-kumite** mot vekslende partnere.
-- Forsvar mot uventede angrep (frihåndsdemo).
-- Demonstrasjon av **tai-sabaki** under press.
-
-### Ridori
-
-Eleven skal kunne forklare og demonstrere et flytende Ridori-sett mot
-samarbeidende partner, og vise hvordan prinsippene henger sammen med
-bunkai fra Naihanchi og Passai.
+**Ju-kumite** — fri sparing med kontroll. Turneringsdeltagelse er
+obligatorisk for utøvere under 30 år.
 
 ### Etos
 
-Til slutt vurderes eleven som dojo-medlem: hvordan vedkommende
-behandler andre elever, hvordan hilsen, klesdrakt og oppførsel
-fungerer som eksempel for resten av klassen.
+Shodan er ikke slutten på læringen — det er begynnelsen på den voksne
+praksisen. Kandidaten forventes å fungere som god rollemodell og
+bidragsyter i dojo-hverdagen.

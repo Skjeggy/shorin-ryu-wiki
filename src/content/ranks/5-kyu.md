@@ -1,65 +1,73 @@
 ---
-title: "5. kyu — grønt belte"
+title: "5. kyu — oransje belte"
 section: ranks
 rank: "5. kyu"
 order: 50
 lang: nb
-description: "Midtveis i kyu-pensumet. Pinan-kataene står sentralt, og kumite-arbeid blir mer strukturert."
+description: "Introduserer Pinan Shodan og Nidan, nye stillinger og mer avanserte hånd- og sparkteknikker."
 tags: ["mellomnivå", "pinan", "kyu"]
 related:
+  - "ranks/6-kyu"
+  - "ranks/4-kyu"
   - "kata/pinan-shodan"
-  - "kata/naihanchi-shodan"
   - "training-sessions/pinan-fokus"
 requiredKata:
-  - "Fukyu Ichi"
-  - "Fukyu Ni"
+  - "E-Kata Sanbon-me"
   - "Pinan Shodan"
   - "Pinan Nidan"
 techniques:
-  - "Kokutsu-dachi (tilbakelent stilling)"
-  - "Shuto-uke (knivhåndsblokk)"
-  - "Yoko-geri keage (sidespark, snert)"
-  - "Mawashi-geri (rundspark)"
-  - "Sanbon-kumite (tre-stegs kumite)"
+  - "Kamae, Kokutsu-dachi"
+  - "Shuto-uke, Osae-uke, Uchi-uke"
+  - "Shuto-yokomen-uchi, Uraken-uchi, Tateken-zuki, Nukite-zuki, Nukite-tate-zuki, Nukite-ura-zuki"
+  - "Uchi-fumikomi, Yoko-fumikomi, Oi-mae-geri, Oi-yoko-geri, Oi-mawashi-geri"
 senseiNotes: |
-  På 5. kyu forventer vi at eleven har en stabil grunn i Pinan Shodan og
-  Nidan og kan vise klare forskjeller mellom stillingene. Skiftet mellom
-  zenkutsu og kokutsu bør være rent. I kumite ser vi etter avstands- og
-  timingforståelse, ikke kraft.
-updated: 2025-09-04
+  På 5. kyu introduseres kokutsu-dachi og shuto-uke, som er sentrale
+  i Pinan Shodan. Eleven skal vise ju-kumite med evne til å kontrollere
+  teknikker i fri sparing. Minstekrav er 6 måneder siden siste gradering
+  (normalt 1 år) og 25 treningsøkter.
+updated: 2026-05-31
 ---
 
 ## Krav til 5. kyu
 
-5. kyu er overgangen fra ren teknikkinnlæring til at eleven begynner å
-sette sammen elementer i flyt. Pinan-serien er drivkraften gjennom dette
-nivået.
+5. kyu markerer overgangen til Pinan-serien. Minstekrav: **6 måneder**
+siden siste gradering (normalt **1 år**) og **25 treningsøkter**.
 
-### Kihon
+### Nye stillinger (Dachi)
 
-- Skifte mellom **zenkutsu-dachi** og **kokutsu-dachi** uten å miste
-  høyden.
-- Kombinasjoner med blokk + slag + spark i samme sekvens.
-- Innføring av **shuto-uke** og **uchi-uke**.
+- **Kamae** — kampstilling.
+- **Kokutsu-dachi** — tilbakelent stilling; sentral i Pinan Shodan.
+
+### Blokkeringer (Uke)
+
+- **Shuto-uke** — knivhåndsblokk.
+- **Osae-uke** — trykkblokk.
+- **Uchi-uke** — innenfrakommende blokk.
+
+### Håndteknikker
+
+- **Shuto-yokomen-uchi** — knivhåndsslag mot siden av hodet.
+- **Uraken-uchi** — bakknokesslag.
+- **Tateken-zuki** — vertikalt slag.
+- **Nukite-zuki** — fingertupp-slag.
+- **Nukite-tate-zuki** — vertikalt fingertupp-slag.
+- **Nukite-ura-zuki** — omvendt fingertupp-slag.
+
+### Spark (Geri)
+
+- **Uchi-fumikomi** — innvendig stampespark.
+- **Yoko-fumikomi** — side stampespark.
+- **Oi-mae-geri** — forstegsfrontspark.
+- **Oi-yoko-geri** — forstegssidespark.
+- **Oi-mawashi-geri** — forstygsrundspark.
 
 ### Kata
 
-- **Fukyu Ichi**, **Fukyu Ni** — rene, med kime.
-- **Pinan Shodan**, **Pinan Nidan** — fullstendig, med klar embusen og
-  riktige timinger.
-
-### Bunkai
-
-Eleven skal kunne forklare og demonstrere minst én anvendelse fra
-**Pinan Shodan** sammen med partner.
+- **E-Kata Sanbon-me** — befestelse fra forrige grad.
+- **Pinan Shodan** — fullstendig, med kokutsu-dachi og shuto-uke.
+- **Pinan Nidan** — fullstendig.
 
 ### Kumite
 
-- **Sanbon-kumite** med riktige avstander.
-- Innføring av **kihon ippon-kumite** for jodan- og chudan-angrep.
-
-### Sensei-perspektiv
-
-Mange faller for fristelsen til å gå fortere gjennom Pinan-kataene når
-de oppleves som «kjente». Be eleven om å holde tempoet nede og fokusere
-på pust og stilling i stedet.
+**Ju-kumite** — eleven skal vise evne til å kontrollere teknikker i
+fri sparing. Fokus på avstand og timing, ikke kraft.

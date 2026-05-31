@@ -56,6 +56,13 @@ const homeHref = `${base}/${lang}/`;
       {t.nav.home}
     </a>
 
+    <a
+      href={`${base}/${lang}/om/`}
+      class:list={['nav-link mx-2', currentPath.includes('/om') && 'nav-link-active']}
+    >
+      {t.nav.about}
+    </a>
+
     {groups.map((group) => (
       <div class="mb-2">
         <a href={group.indexHref} class="section-heading hover:text-ink-700 no-underline block">

@@ -18,6 +18,7 @@ export const en: UIStrings = {
     bunkai: 'Bunkai',
     ridori: 'Ridori',
     trainingSessions: 'Training sessions',
+    about: 'About the style',
     search: 'Search',
     skipToContent: 'Skip to main content',
     menu: 'Menu',

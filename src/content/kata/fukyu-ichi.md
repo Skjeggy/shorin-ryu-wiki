@@ -1,12 +1,13 @@
 ---
-title: "Fukyu Ichi"
+title: "Fukyu Ichi (E-Kata Ippon-me)"
 section: kata
 order: 1
 lang: nb
-description: "Den første kata i pensumet. Lærer grunnstilling, vending og enkelt slag i bevegelse."
-tags: ["fukyu", "nybegynner", "kata"]
+description: "Den første kata i pensumet — kalt E-Kata Ippon-me i Shorinryu Kenshinkai. Grunnstilling, vending og enkelt slag."
+tags: ["e-kata", "fukyu", "nybegynner", "kata"]
 related:
-  - "ranks/9-kyu"
+  - "ranks/10-kyu"
+  - "kata/e-kata-ippon-me"
   - "techniques/dachi"
   - "kata/pinan-shodan"
 keyPoints:
