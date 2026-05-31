@@ -62,6 +62,12 @@ const homeHref = `${base}/${lang}/`;
     >
       {t.nav.about}
     </a>
+    <a
+      href={`${base}/${lang}/ordliste/`}
+      class:list={['nav-link mx-2', currentPath.includes('/ordliste') && 'nav-link-active']}
+    >
+      Ord og uttrykk
+    </a>
 
     {groups.map((group) => (
       <div class="mb-2">
