@@ -7,7 +7,7 @@ description: "Første kata i Pinan-serien. Introduserer kokutsu-dachi og shuto-u
 tags: ["pinan", "kata", "mellomnivå"]
 related:
   - "ranks/5-kyu"
-  - "kata/fukyu-ichi"
+  - "kata/e-kata-ippon-me"
   - "kata/naihanshin-shodan"
   - "training-sessions/pinan-fokus"
 keyPoints:

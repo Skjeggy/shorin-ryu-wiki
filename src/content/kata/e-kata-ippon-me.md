@@ -22,7 +22,9 @@ updated: 2026-05-31
 
 **E-Kata Ippon-me** er den første kata i Shorinryu Kenshinkai-pensumet
 og den mest grunnleggende av de tre E-Kataene. Den kalles i noen andre
-Shorin-Ryu-skoler *Fukyu Ichi* eller *Pinan Shodan* (i Shotokan-varianter).
+Shorin-Ryu-skoler *Fukyu Ichi* («Den utbredte første») — en kata utviklet
+av **Shoshin Nagamine** i samarbeid med andre okinawanske mestere på
+1940-tallet, som svar på behovet for en enkel innførselskata for nye elever.
 
 E-Kata-serien er spesifikk for **Shorinryu Kenshinkai**, stilarten som
 praktiseres av Shorinryu Karate Association Norway (SKAN).

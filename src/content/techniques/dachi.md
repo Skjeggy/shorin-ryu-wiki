@@ -8,7 +8,7 @@ description: "Oversikt over de viktigste stillingene i Shorin-Ryu, deres anvende
 tags: ["stillinger", "kihon", "grunnleggende"]
 related:
   - "ranks/9-kyu"
-  - "kata/fukyu-ichi"
+  - "kata/e-kata-ippon-me"
   - "kata/pinan-shodan"
   - "kata/naihanshin-shodan"
 updated: 2025-08-05
@@ -101,7 +101,7 @@ i visse drilltyper og nærkampsanvendelser.
    zenkutsu → kokutsu) uten hender. Føl hvor vekten flyttes.
 3. **Skift med teknikk:** legg på blokk og slag når stillingene sitter.
 4. **I kata:** sjekk hvor i en konkret kata du går gjennom hver
-   stilling. [Fukyu Ichi](../kata/fukyu-ichi/) og
+   stilling. [E-Kata Ippon-me](../kata/e-kata-ippon-me/) og
    [Pinan Shodan](../kata/pinan-shodan/) er gode startpunkter.
 
 ## Bunkai-relevans

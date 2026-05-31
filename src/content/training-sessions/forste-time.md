@@ -11,7 +11,7 @@ tags: ["nybegynner", "økt", "kihon", "etikette"]
 related:
   - "ranks/9-kyu"
   - "techniques/dachi"
-  - "kata/fukyu-ichi"
+  - "kata/e-kata-ippon-me"
 updated: 2025-07-15
 ---
 
@@ -79,7 +79,7 @@ Se [Dachi — stillinger](../techniques/dachi/) for detaljer.
 
 ### Smakebit på kata (5 min)
 
-- Vis **Fukyu Ichi** rolig én gang fra instruktørens side.
+- Vis **E-Kata Ippon-me** rolig én gang fra instruktørens side.
 - La eleven prøve første sekvens (yoi → gedan-barai → oi-zuki) uten
   press på riktig embusen ennå.
 
