@@ -19,6 +19,18 @@ origin: "Del av Pinan-serien av Anko Itosu. Betraktes som overgangen fra de enkl
 updated: 2026-05-31
 ---
 
+## Videogjennomgang
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/6kDWX01zaAg"
+  title="Pinan Sandan — videogjennomgang"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen></iframe>
+
 ## Bakgrunn
 
 **Pinan Sandan** er den tredje av fem Pinan-kataer og markerer et teknisk skifte i serien. Kiba-dachi (ridestillingen) introduseres som primærstilling, og kombinasjonene blir mer sammensatte. Kata kreves fra **4. kyu** og befestes på **3. kyu**.
