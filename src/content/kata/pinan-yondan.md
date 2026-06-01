@@ -19,6 +19,18 @@ origin: "Del av Pinan-serien av Anko Itosu. Anses som en av de mer teknisk kompl
 updated: 2026-05-31
 ---
 
+## Videogjennomgang
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/1oQfoYqRZi8"
+  title="Pinan Yondan — videogjennomgang"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen></iframe>
+
 ## Bakgrunn
 
 **Pinan Yondan** er den fjerde av fem Pinan-kataer og er kjent for sine teknisk utfordrende kombinasjoner av spark, blokkeringer og slag. Juji-uke (korsblokken) er et av kataens signaturtrekk. Kata kreves fra **3. kyu** og befestes på **2. kyu**.
