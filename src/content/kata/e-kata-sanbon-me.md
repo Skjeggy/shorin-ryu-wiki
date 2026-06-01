@@ -20,6 +20,18 @@ origin: "Del av E-Kata-serien i Shorinryu Kenshinkai. Sanbon-me (三本目) bety
 updated: 2026-05-31
 ---
 
+## Videogjennomgang
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/oj6cnm1QyAM"
+  title="E-Kata Sanbon-me — videogjennomgang"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen></iframe>
+
 ## Bakgrunn
 
 **E-Kata Sanbon-me** (「三本目」= det tredje) er den tredje og siste av E-Kataene i Shorinryu Kenshinkai. Den er unik i pensumet ved at den kreves på **to nivåer**: fra **10. kyu** (som alle E-Kataene), og igjen på **5. kyu** — der den fungerer som en bevisst befestelse av grunnlaget mens eleven samtidig lærer Pinan Shodan og Nidan.
