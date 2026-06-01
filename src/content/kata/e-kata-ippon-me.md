@@ -9,6 +9,7 @@ related:
   - "ranks/10-kyu"
   - "kata/e-kata-nibon-me"
   - "techniques/dachi"
+  - "bunkai/gedan-barai-bunkai"
 keyPoints:
   - "Embusen er en enkel I-form."
   - "Alle stillinger er zenkutsu-dachi."
@@ -79,6 +80,9 @@ et grep om håndleddet: vendingen og sveipet bryter grepet og trekker
 motstander ut av balanse. Det påfølgende oi-zuki lukker avstanden.
 
 ![Bunkai: gedan-barai bryter håndleddsgrep](/images/kata/e-kata-ippon-me-bunkai-grep.jpg)
+
+Se [Gedan-barai-uke bunkai](../../bunkai/gedan-barai-bunkai/) for
+videogjennomganger av tolkninger og praktiske øvelser.
 
 ### Oi-zuki som avslutning
 

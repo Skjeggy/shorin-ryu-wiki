@@ -9,7 +9,7 @@ focus: "Etikette, grunnstilling, første teknikker, trygghet i dojoen"
 description: "En komplett 75-minutters økt for elever som aldri har trent karate før. Lav terskel, høy struktur."
 tags: ["nybegynner", "økt", "kihon", "etikette"]
 related:
-  - "ranks/9-kyu"
+  - "ranks/10-kyu"
   - "techniques/dachi"
   - "kata/e-kata-ippon-me"
 updated: 2025-07-15

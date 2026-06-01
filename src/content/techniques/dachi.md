@@ -7,7 +7,6 @@ lang: nb
 description: "Oversikt over de viktigste stillingene i Shorin-Ryu, deres anvendelser og typiske feil."
 tags: ["stillinger", "kihon", "grunnleggende"]
 related:
-  - "ranks/9-kyu"
   - "kata/e-kata-ippon-me"
   - "kata/pinan-shodan"
   - "kata/naihanshin-shodan"

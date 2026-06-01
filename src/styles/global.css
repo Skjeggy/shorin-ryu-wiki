@@ -35,6 +35,13 @@
   }
 }
 
+/* Responsive iframes (YouTube etc.) */
+.prose iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+}
+
 /* Pagefind UI overrides */
 :root {
   --pagefind-ui-scale: 0.9;
