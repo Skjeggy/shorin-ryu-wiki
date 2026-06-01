@@ -44,6 +44,10 @@ export const nb = {
       title: 'Treningsøkter',
       description: 'Strukturerte øktplaner for ulike nivåer og temaer.',
     },
+    'ressurser': {
+      title: 'Ressurser',
+      description: 'Anbefalte YouTube-kanaler, bøker og eksterne ressurser om karate og Shorin-Ryu.',
+    },
   },
   search: {
     placeholder: 'Søk i wikien …',

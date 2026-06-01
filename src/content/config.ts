@@ -10,6 +10,7 @@ const baseSchema = z.object({
     'bunkai',
     'ridori',
     'training-sessions',
+    'ressurser',
   ]),
   rank: z.string().optional(),
   tags: z.array(z.string()).default([]),
@@ -77,6 +78,13 @@ const trainingSessions = defineCollection({
   }),
 });
 
+const ressurser = defineCollection({
+  type: 'content',
+  schema: baseSchema.extend({
+    section: z.literal('ressurser'),
+  }),
+});
+
 export const collections = {
   ranks,
   kata,
@@ -84,4 +92,5 @@ export const collections = {
   bunkai,
   ridori,
   'training-sessions': trainingSessions,
+  ressurser,
 };

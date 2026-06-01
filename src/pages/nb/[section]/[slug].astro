@@ -11,7 +11,8 @@ type AnyEntry =
   | CollectionEntry<'techniques'>
   | CollectionEntry<'bunkai'>
   | CollectionEntry<'ridori'>
-  | CollectionEntry<'training-sessions'>;
+  | CollectionEntry<'training-sessions'>
+  | CollectionEntry<'ressurser'>;
 
 export async function getStaticPaths() {
   const sections: SectionId[] = [
@@ -21,6 +22,7 @@ export async function getStaticPaths() {
     'bunkai',
     'ridori',
     'training-sessions',
+    'ressurser',
   ];
   const all = await Promise.all(
     sections.map(async (section) => {

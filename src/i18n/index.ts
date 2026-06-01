@@ -23,6 +23,7 @@ export const sectionOrder = [
   'bunkai',
   'ridori',
   'training-sessions',
+  'ressurser',
 ] as const;
 
 export type SectionId = (typeof sectionOrder)[number];

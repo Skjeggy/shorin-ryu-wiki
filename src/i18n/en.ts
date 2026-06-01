@@ -49,6 +49,10 @@ export const en: UIStrings = {
       title: 'Training sessions',
       description: 'Structured session plans for different levels and themes.',
     },
+    'ressurser': {
+      title: 'Resources',
+      description: 'Recommended YouTube channels, books and external resources on karate and Shorin-Ryu.',
+    },
   },
   search: {
     placeholder: 'Search the wiki …',
