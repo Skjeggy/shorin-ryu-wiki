@@ -16,7 +16,7 @@ keyPoints:
   - "Gedan-barai-uke og oi-zuki er de to hovedelementene."
   - "Kime på hvert slag og hver blokk."
 origin: "Del av E-Kata-serien utviklet for Shorinryu Kenshinkai. Tilsvarer det som i mange andre Shorin-Ryu-skoler kalles Fukyu Ichi."
-image: /images/kata/e-kata-ippon-me-hero.jpg
+image: /images/kata/e-kata-ippon-me-hero.png
 updated: 2026-06-01
 ---
 
@@ -48,7 +48,6 @@ praktiseres av Shorinryu Karate Association Norway (SKAN).
 En enkel **I-form** — to linjer i lengderetning og en kort tverrlinje.
 Alle bevegelser følger disse linjene. Ingen diagonale skritt.
 
-![Diagram av I-formet embusen for E-Kata Ippon-me](/images/kata/e-kata-ippon-me-embusen.jpg)
 
 ## Hovedelementer
 
@@ -59,9 +58,6 @@ Kata består av:
 - **Oi-zuki chudan** fremover i bevegelse.
 - En klar avslutning i utgangspunktet med **yame**.
 
-![Zenkutsu-dachi med gedan-barai-uke](/images/kata/e-kata-ippon-me-gedan-barai.jpg)
-
-![Oi-zuki chudan i zenkutsu-dachi](/images/kata/e-kata-ippon-me-oi-zuki.jpg)
 
 ## Nøkkelpunkter
 
@@ -79,7 +75,6 @@ Den lave sveipblokken ved vending brukes ikke mot et spark, men mot
 et grep om håndleddet: vendingen og sveipet bryter grepet og trekker
 motstander ut av balanse. Det påfølgende oi-zuki lukker avstanden.
 
-![Bunkai: gedan-barai bryter håndleddsgrep](/images/kata/e-kata-ippon-me-bunkai-grep.jpg)
 
 Se [Gedan-barai-uke bunkai](../../bunkai/gedan-barai-bunkai/) for
 videogjennomganger av tolkninger og praktiske øvelser.
