@@ -19,6 +19,18 @@ origin: "Del av Pinan-serien av Anko Itosu. Godan (femte nivå) er den mest komp
 updated: 2026-05-31
 ---
 
+## Videogjennomgang
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/QxmlF4iX5hk"
+  title="Pinan Godan — videogjennomgang"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen></iframe>
+
 ## Bakgrunn
 
 **Pinan Godan** er den femte og siste av Pinan-kataene, og den mest teknisk krevende. Det karakteristiske hoppet midtveis i kataen skiller den fra de fire foregående og krever god eksplosivitet og balanse ved landing. Kata kreves fra **2. kyu** og befestes grundig på **1. kyu**.
