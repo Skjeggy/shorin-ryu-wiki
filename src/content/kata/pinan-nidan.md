@@ -20,6 +20,18 @@ origin: "Del av Pinan-serien utviklet av Anko Itosu rundt år 1900. Anses av man
 updated: 2026-05-31
 ---
 
+## Videogjennomgang
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/qSw7R2ZIDqc"
+  title="Pinan Nidan — videogjennomgang"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen></iframe>
+
 ## Bakgrunn
 
 **Pinan Nidan** er den andre kata i Pinan-serien og regnes av mange instruktører som den teknisk rikeste av de fem. Den introduserer albueslag (**empi-uchi**) i kombinasjon med blokkeringer, og har en mer allsidig embusen enn Pinan Shodan.
