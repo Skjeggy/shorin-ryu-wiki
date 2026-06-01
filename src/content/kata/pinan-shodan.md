@@ -19,6 +19,18 @@ origin: "Utviklet av Anko Itosu rundt år 1900 som forenklede versjoner av Chann
 updated: 2025-08-21
 ---
 
+## Videogjennomgang
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/Wp1E9zh86mM"
+  title="Pinan Shodan — videogjennomgang"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen></iframe>
+
 ## Bakgrunn
 
 Pinan-serien ble laget av **Anko Itosu** (1831–1915) som en pedagogisk
