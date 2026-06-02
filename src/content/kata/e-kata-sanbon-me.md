@@ -11,6 +11,7 @@ related:
   - "kata/pinan-shodan"
   - "ranks/10-kyu"
   - "ranks/5-kyu"
+  - "bunkai/soto-uke-bunkai"
 keyPoints:
   - "Den mest teknisk varierte av de tre E-Kataene."
   - "Bro mellom E-Kata-grunnlaget og Pinan-seriens kompleksitet."

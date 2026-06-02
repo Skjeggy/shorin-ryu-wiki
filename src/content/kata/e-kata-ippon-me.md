@@ -10,6 +10,7 @@ related:
   - "kata/e-kata-nibon-me"
   - "techniques/dachi"
   - "bunkai/gedan-barai-bunkai"
+  - "bunkai/soto-uke-bunkai"
 keyPoints:
   - "Embusen er en enkel I-form."
   - "Alle stillinger er zenkutsu-dachi."
