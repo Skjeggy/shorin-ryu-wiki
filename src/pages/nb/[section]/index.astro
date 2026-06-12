@@ -38,33 +38,33 @@ const entries = (await getCollection(section, ({ data }) => data.lang === lang))
 
 <BaseLayout title={meta.title} description={meta.description} lang={lang}>
   <header class="mb-8">
-    <p class="text-xs uppercase tracking-wider text-accent font-sans font-semibold mb-2">
+    <p class="text-xs uppercase tracking-wider text-accent font-sans font-semibold mb-2 dark:text-accent-light">
       {t.sections[section].title}
     </p>
-    <h1 class="text-4xl font-serif text-ink-900 mb-3">{meta.title}</h1>
-    <p class="text-lg text-ink-700 max-w-3xl">{meta.description}</p>
+    <h1 class="text-4xl font-serif text-ink-900 mb-3 dark:text-ink-100">{meta.title}</h1>
+    <p class="text-lg text-ink-700 max-w-3xl dark:text-ink-300">{meta.description}</p>
   </header>
 
   {entries.length === 0 ? (
-    <p class="text-ink-500 italic">{t.article.noArticles}</p>
+    <p class="text-ink-500 italic dark:text-ink-400">{t.article.noArticles}</p>
   ) : (
     <ul class="grid sm:grid-cols-2 gap-4">
       {entries.map((entry) => (
         <li>
           <a href={`${base}/${lang}/${section}/${entry.slug}/`} class="card">
-            <h2 class="text-lg font-semibold text-ink-900">{entry.data.title}</h2>
+            <h2 class="text-lg font-semibold text-ink-900 dark:text-ink-100">{entry.data.title}</h2>
             {entry.data.rank && (
-              <p class="text-xs uppercase tracking-wider text-ink-500 font-sans mt-1">
+              <p class="text-xs uppercase tracking-wider text-ink-500 font-sans mt-1 dark:text-ink-400">
                 {t.article.rank}: {entry.data.rank}
               </p>
             )}
             {entry.data.description && (
-              <p class="mt-2 text-sm text-ink-600">{entry.data.description}</p>
+              <p class="mt-2 text-sm text-ink-600 dark:text-ink-400">{entry.data.description}</p>
             )}
             {entry.data.tags.length > 0 && (
               <ul class="mt-3 flex flex-wrap gap-1.5">
                 {entry.data.tags.slice(0, 4).map((tag) => (
-                  <li class="text-xs px-2 py-0.5 bg-ink-100 text-ink-700 rounded">{tag}</li>
+                  <li class="text-xs px-2 py-0.5 bg-ink-100 text-ink-700 rounded dark:bg-ink-700 dark:text-ink-300">{tag}</li>
                 ))}
               </ul>
             )}

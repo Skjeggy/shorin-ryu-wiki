@@ -48,16 +48,16 @@ const items = await resolveRelated();
 ---
 
 {items.length > 0 && (
-  <aside class="mt-12 not-prose border-t border-ink-200 pt-6">
-    <h2 class="text-lg font-semibold mb-3 text-ink-900">{t.article.related}</h2>
+  <aside class="mt-12 not-prose border-t border-ink-200 pt-6 dark:border-ink-700">
+    <h2 class="text-lg font-semibold mb-3 text-ink-900 dark:text-ink-100">{t.article.related}</h2>
     <ul class="grid sm:grid-cols-2 gap-3">
       {items.map((item) => (
         <li>
           <a href={item.href} class="card">
-            <span class="block text-xs uppercase tracking-wider text-ink-500 mb-1">
+            <span class="block text-xs uppercase tracking-wider text-ink-500 mb-1 dark:text-ink-400">
               {t.sections[item.section as SectionId].title}
             </span>
-            <span class="text-ink-900 font-semibold">{item.title}</span>
+            <span class="text-ink-900 font-semibold dark:text-ink-100">{item.title}</span>
           </a>
         </li>
       ))}

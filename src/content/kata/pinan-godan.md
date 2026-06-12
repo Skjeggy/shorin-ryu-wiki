@@ -15,6 +15,7 @@ keyPoints:
   - "Juji-uke i lav posisjon (gedan) er et nøkkelelement."
   - "Kataen avsluttes med en kraftfull kombinasjon og kiai."
   - "Krever god balanse, timing og eksplosiv kraft."
+video: "https://www.youtube.com/watch?v=a1prMZHwt9w"
 origin: "Del av Pinan-serien av Anko Itosu. Godan (femte nivå) er den mest komplekse og prestisjefylte av de fem kataene."
 updated: 2026-05-31
 ---

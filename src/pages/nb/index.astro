@@ -44,33 +44,33 @@ const latest = allEntries
 
 <BaseLayout lang={lang}>
   <section class="mb-12">
-    <p class="text-xs uppercase tracking-wider text-accent font-sans font-semibold mb-2">
+    <p class="text-xs uppercase tracking-wider text-accent font-sans font-semibold mb-2 dark:text-accent-light">
       {t.home.getStarted}
     </p>
-    <h1 class="text-4xl sm:text-5xl font-serif text-ink-900 leading-tight mb-4">
+    <h1 class="text-4xl sm:text-5xl font-serif text-ink-900 leading-tight mb-4 dark:text-ink-100">
       {t.home.welcomeTitle}
     </h1>
-    <div class="w-16 h-1 bg-accent rounded mb-5"></div>
-    <p class="text-lg text-ink-700 max-w-3xl leading-relaxed">
+    <div class="w-16 h-1 bg-accent rounded mb-5 dark:bg-accent-light"></div>
+    <p class="text-lg text-ink-700 max-w-3xl leading-relaxed dark:text-ink-300">
       {t.home.welcomeBody}
     </p>
   </section>
 
   <section class="mb-12">
-    <h2 class="text-2xl font-serif text-ink-900 mb-5">{t.home.exploreSections}</h2>
+    <h2 class="text-2xl font-serif text-ink-900 mb-5 dark:text-ink-100">{t.home.exploreSections}</h2>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
       {sections.map((section) => (
-        <a href={section.href} class="card group border-l-4 border-l-accent">
+        <a href={section.href} class="card group">
           <div class="flex items-center justify-between gap-2">
-            <h3 class="text-lg font-semibold text-ink-900 group-hover:text-accent transition-colors">
+            <h3 class="text-lg font-semibold text-ink-900 group-hover:text-accent transition-colors dark:text-ink-100 dark:group-hover:text-accent-light">
               {section.title}
             </h3>
-            <span class="shrink-0 text-xs font-sans text-ink-600 bg-ink-100 rounded-full px-2 py-0.5">
+            <span class="shrink-0 text-xs font-sans text-ink-600 bg-ink-100 rounded-full px-2 py-0.5 dark:text-ink-300 dark:bg-ink-700">
               {section.count}
             </span>
           </div>
-          <p class="mt-1 text-sm text-ink-600">{section.description}</p>
-          <span class="mt-3 inline-block text-sm text-accent opacity-0 group-hover:opacity-100 transition-opacity">
+          <p class="mt-1 text-sm text-ink-600 dark:text-ink-400">{section.description}</p>
+          <span class="mt-3 inline-block text-sm text-accent opacity-0 group-hover:opacity-100 transition-opacity dark:text-accent-light">
             {t.home.exploreSections} <span aria-hidden="true">→</span>
           </span>
         </a>
@@ -80,16 +80,16 @@ const latest = allEntries
 
   {latest.length > 0 && (
     <section class="mb-8">
-      <h2 class="text-2xl font-serif text-ink-900 mb-5">{t.home.latestUpdates}</h2>
-      <ul class="divide-y divide-ink-200 border-y border-ink-200">
+      <h2 class="text-2xl font-serif text-ink-900 mb-5 dark:text-ink-100">{t.home.latestUpdates}</h2>
+      <ul class="divide-y divide-ink-200 border-y border-ink-200 dark:divide-ink-700 dark:border-ink-700">
         {latest.map((entry) => (
           <li>
             <a href={entry.href} class="flex items-center justify-between py-3 no-underline group">
               <div>
-                <span class="block text-xs uppercase tracking-wider text-ink-500 font-sans">
+                <span class="block text-xs uppercase tracking-wider text-ink-500 font-sans dark:text-ink-400">
                   {t.sections[entry.section as SectionId].title}
                 </span>
-                <span class="text-ink-900 group-hover:text-accent">{entry.title}</span>
+                <span class="text-ink-900 group-hover:text-accent dark:text-ink-100 dark:group-hover:text-accent-light">{entry.title}</span>
               </div>
               <span class="text-ink-400" aria-hidden="true">→</span>
             </a>

@@ -15,6 +15,7 @@ keyPoints:
   - "Shuto-uke utføres med utstrakt fremre hånd og bakre hånd ved siden av brystet."
   - "Rytmen i kata er ikke jevn — vær oppmerksom på pausene."
   - "Embusen er en I-form med diagonale skritt i åpningssekvensen."
+video: "https://www.youtube.com/watch?v=a1prMZHwt9w"
 origin: "Utviklet av Anko Itosu rundt år 1900 som forenklede versjoner av Channan/Kusanku, til bruk i skoleundervisning."
 updated: 2025-08-21
 ---

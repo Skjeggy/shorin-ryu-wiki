@@ -7,16 +7,16 @@
     scroll-behavior: smooth;
   }
   body {
-    @apply bg-ink-50 text-ink-800 font-serif antialiased;
+    @apply bg-ink-50 text-ink-800 font-serif antialiased dark:bg-ink-900 dark:text-ink-200;
   }
   h1, h2, h3, h4, h5, h6 {
-    @apply font-serif text-ink-900;
+    @apply font-serif text-ink-900 dark:text-ink-100;
   }
   a {
-    @apply text-accent hover:text-accent-dark underline-offset-4;
+    @apply text-accent hover:text-accent-dark underline-offset-4 dark:text-accent-light dark:hover:text-ink-100;
   }
   code {
-    @apply font-mono text-sm bg-ink-100 px-1 py-0.5 rounded;
+    @apply font-mono text-sm bg-ink-100 px-1 py-0.5 rounded dark:bg-ink-800 dark:text-ink-100;
   }
   /* Keep anchor targets clear of the sticky header. */
   :target,
@@ -25,7 +25,7 @@
   }
   /* Visible keyboard focus everywhere. */
   :focus-visible {
-    @apply outline-none ring-2 ring-accent ring-offset-2 ring-offset-ink-50 rounded;
+    @apply outline-none ring-2 ring-accent ring-offset-2 ring-offset-ink-50 rounded dark:ring-accent-light dark:ring-offset-ink-900;
   }
   /* Respect users who prefer reduced motion. */
   @media (prefers-reduced-motion: reduce) {
@@ -44,17 +44,42 @@
 
 @layer components {
   .nav-link {
-    @apply block px-3 py-1.5 rounded text-ink-700 hover:bg-ink-100 hover:text-ink-900 no-underline transition-colors;
+    @apply block px-3 py-1.5 rounded text-ink-700 hover:bg-ink-100 hover:text-ink-900 no-underline transition-colors dark:text-ink-300 dark:hover:bg-ink-800 dark:hover:text-ink-100;
   }
   .nav-link-active {
-    @apply bg-ink-200 text-ink-900 font-semibold;
+    @apply bg-ink-200 text-ink-900 font-semibold dark:bg-ink-800 dark:text-ink-100;
   }
   .section-heading {
-    @apply text-xs uppercase tracking-wider text-ink-500 font-sans font-semibold mt-4 mb-1 px-3;
+    @apply text-xs uppercase tracking-wider text-ink-500 font-sans font-semibold mt-4 mb-1 px-3 dark:text-ink-400;
   }
   .card {
-    @apply block bg-white rounded-lg border border-ink-200 p-5 hover:border-accent hover:shadow-md transition-all no-underline;
+    @apply block bg-white rounded-lg border border-ink-200 border-l-4 border-l-accent p-5 hover:shadow-md hover:-translate-y-0.5 transition-all no-underline dark:bg-ink-800 dark:border-ink-700 dark:border-l-accent dark:hover:shadow-black/40;
   }
+}
+
+/*
+ * Key-points callout. Built by the remark-key-callout plugin, so the
+ * `key-callout` class never appears in a scanned template — these rules live
+ * outside @layer components so Tailwind never tree-shakes them away.
+ */
+.key-callout {
+  @apply my-8 rounded-lg border border-ink-200 border-l-4 border-l-accent bg-ink-100 px-5 py-4 dark:border-ink-700 dark:border-l-accent dark:bg-ink-800;
+}
+.key-callout > h2 {
+  @apply mt-0 mb-3 text-sm font-sans font-semibold uppercase tracking-wider text-accent dark:text-accent-light;
+}
+.key-callout ul {
+  @apply m-0 list-none space-y-2 p-0;
+}
+.key-callout li {
+  @apply relative pl-5 text-ink-800 dark:text-ink-200;
+}
+.key-callout li::before {
+  content: '';
+  @apply absolute left-0 top-[0.6em] h-1.5 w-1.5 rounded-full bg-accent dark:bg-accent-light;
+}
+.key-callout strong {
+  @apply text-ink-900 dark:text-ink-100;
 }
 
 /* Responsive iframes (YouTube etc.) */
@@ -75,4 +100,12 @@
   --pagefind-ui-border-width: 1px;
   --pagefind-ui-border-radius: 6px;
   --pagefind-ui-font: 'Inter', system-ui, sans-serif;
+}
+
+.dark {
+  --pagefind-ui-primary: #d97a7a;
+  --pagefind-ui-text: #ece7dc;
+  --pagefind-ui-background: #2c2620;
+  --pagefind-ui-border: #463d31;
+  --pagefind-ui-tag: #463d31;
 }

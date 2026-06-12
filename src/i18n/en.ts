@@ -23,6 +23,7 @@ export const en: UIStrings = {
     skipToContent: 'Skip to main content',
     menu: 'Menu',
     closeMenu: 'Close menu',
+    toggleTheme: 'Toggle light and dark theme',
   },
   sections: {
     ranks: {

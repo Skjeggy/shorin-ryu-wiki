@@ -18,6 +18,7 @@ export const nb = {
     skipToContent: 'Hopp til hovedinnhold',
     menu: 'Meny',
     closeMenu: 'Lukk meny',
+    toggleTheme: 'Bytt mellom lyst og mørkt tema',
   },
   sections: {
     ranks: {

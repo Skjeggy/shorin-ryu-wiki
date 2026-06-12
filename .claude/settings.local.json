@@ -5,7 +5,16 @@
       "mcp__Claude_in_Chrome__tabs_context_mcp",
       "WebFetch(domain:kksor.com)",
       "WebSearch",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(wc -l /c/Users/sondr/OneDrive/Documents/Claude/Websites/Karate/src/i18n/*.ts)",
+      "Bash(npm install:*)",
+      "Bash(node -e \"console.log\\(require\\('./package.json'\\).dependencies\\)\")",
+      "Bash(npm run:*)",
+      "Bash(node -e \"console.log\\('sitemap', require\\('./node_modules/@astrojs/sitemap/package.json'\\).version, 'peer', require\\('./node_modules/@astrojs/sitemap/package.json'\\).peerDependencies\\)\")",
+      "Bash(ls dist/sitemap*.xml)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(xxd public/favicon.ico)",
+      "Bash(npx astro:*)"
     ]
   }
 }

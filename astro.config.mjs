@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
+import remarkKeyCallout from './src/plugins/remark-key-callout.mjs';
 
 // https://astro.build/config
 export default defineConfig({
@@ -10,6 +11,9 @@ export default defineConfig({
   base: '/shorin-ryu-wiki',
   trailingSlash: 'ignore',
   integrations: [tailwind(), sitemap()],
+  markdown: {
+    remarkPlugins: [remarkKeyCallout],
+  },
   i18n: {
     defaultLocale: 'nb',
     locales: ['nb', 'en'],
