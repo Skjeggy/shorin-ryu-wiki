@@ -44,7 +44,7 @@ const homeHref = `${base}/${lang}/`;
 
 <aside
   id="sidebar"
-  class="hidden lg:flex flex-col w-72 shrink-0 bg-white border-r border-ink-200 h-[calc(100vh-73px)] sticky top-0 overflow-y-auto"
+  class="fixed lg:sticky inset-y-0 left-0 z-50 lg:z-auto flex flex-col w-72 max-w-[85vw] lg:max-w-none shrink-0 bg-white border-r border-ink-200 h-full lg:h-[calc(100vh-var(--header-h,73px))] lg:top-[var(--header-h,73px)] overflow-y-auto -translate-x-full lg:translate-x-0 transition-transform duration-200 ease-out"
 >
   <nav class="py-4 text-sm" aria-label={t.nav.menu}>
     <Search lang={lang} />
@@ -63,24 +63,51 @@ const homeHref = `${base}/${lang}/`;
       {t.nav.about}
     </a>
 
-    {groups.map((group) => (
-      <div class="mb-2">
-        <a href={group.indexHref} class="section-heading hover:text-ink-700 no-underline block">
-          {group.title}
-        </a>
-        <ul class="space-y-0.5">
-          {group.entries.map((entry) => (
-            <li>
-              <a
-                href={entry.href}
-                class:list={['nav-link mx-2', currentPath === entry.href && 'nav-link-active']}
-              >
-                {entry.title}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
-    ))}
+    {groups.map((group) => {
+      const isActiveSection = currentPath.startsWith(group.indexHref);
+      if (group.entries.length === 0) {
+        return (
+          <a
+            href={group.indexHref}
+            class:list={['section-heading hover:text-ink-700 no-underline block', isActiveSection && 'text-accent']}
+          >
+            {group.title}
+          </a>
+        );
+      }
+      return (
+        <details class="group mb-2" open={isActiveSection}>
+          <summary class="section-heading flex items-center justify-between cursor-pointer list-none marker:hidden [&::-webkit-details-marker]:hidden hover:text-ink-700">
+            <a href={group.indexHref} class="text-inherit no-underline">{group.title}</a>
+            <svg class="h-3.5 w-3.5 shrink-0 transition-transform group-open:rotate-90 text-ink-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </summary>
+          <ul class="space-y-0.5 mt-1">
+            {group.entries.map((entry) => (
+              <li>
+                <a
+                  href={entry.href}
+                  data-active={currentPath === entry.href ? 'true' : undefined}
+                  class:list={['nav-link mx-2', currentPath === entry.href && 'nav-link-active']}
+                >
+                  {entry.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </details>
+      );
+    })}
   </nav>
 </aside>
+
+<script>
+  // Bring the active entry into view within the sidebar's own scroll area,
+  // without scrolling the main page.
+  const aside = document.getElementById('sidebar');
+  const active = aside?.querySelector('a[data-active="true"]') as HTMLElement | null;
+  if (aside && active) {
+    aside.scrollTop = Math.max(0, active.offsetTop - aside.clientHeight / 2);
+  }
+</script>

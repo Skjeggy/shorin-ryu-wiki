@@ -16,6 +16,10 @@ const t = getUI(lang);
 const fullTitle = title ? `${title} — ${t.site.title}` : t.site.title;
 const metaDescription = description ?? t.site.description;
 const currentPath = Astro.url.pathname;
+const canonical = Astro.site
+  ? new URL(currentPath, Astro.site).href
+  : currentPath;
+const ogLocale = lang === 'nb' ? 'nb_NO' : 'en_GB';
 ---
 
 <!doctype html>
@@ -25,6 +29,21 @@ const currentPath = Astro.url.pathname;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={metaDescription} />
     <title>{fullTitle}</title>
+    <link rel="canonical" href={canonical} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={t.site.title} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={metaDescription} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content={ogLocale} />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={metaDescription} />
+
     <link rel="icon" type="image/x-icon" href={`${import.meta.env.BASE_URL}favicon.ico`} />
     <link
       rel="preconnect"
@@ -41,6 +60,12 @@ const currentPath = Astro.url.pathname;
       {t.nav.skipToContent}
     </a>
     <Header lang={lang} />
+    <div
+      id="sidebar-backdrop"
+      class="hidden lg:hidden fixed inset-0 z-40 bg-ink-900/50"
+      aria-hidden="true"
+    >
+    </div>
     <div class="flex flex-1 max-w-7xl w-full mx-auto">
       <Sidebar lang={lang} currentPath={currentPath} />
       <main id="main" class="flex-1 px-4 sm:px-6 lg:px-8 py-8 min-w-0">

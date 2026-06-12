@@ -18,6 +18,28 @@
   code {
     @apply font-mono text-sm bg-ink-100 px-1 py-0.5 rounded;
   }
+  /* Keep anchor targets clear of the sticky header. */
+  :target,
+  .prose :where(h2, h3, h4) {
+    scroll-margin-top: calc(var(--header-h, 73px) + 1rem);
+  }
+  /* Visible keyboard focus everywhere. */
+  :focus-visible {
+    @apply outline-none ring-2 ring-accent ring-offset-2 ring-offset-ink-50 rounded;
+  }
+  /* Respect users who prefer reduced motion. */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
 }
 
 @layer components {

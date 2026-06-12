@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
+import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
@@ -8,7 +9,7 @@ export default defineConfig({
   site: 'https://skjeggy.github.io',
   base: '/shorin-ryu-wiki',
   trailingSlash: 'ignore',
-  integrations: [tailwind()],
+  integrations: [tailwind(), sitemap()],
   i18n: {
     defaultLocale: 'nb',
     locales: ['nb', 'en'],

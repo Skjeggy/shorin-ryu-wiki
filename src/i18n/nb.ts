@@ -69,6 +69,10 @@ export const nb = {
     backTo: 'Tilbake til',
     edit: 'Foreslå endring',
     lastUpdated: 'Sist oppdatert',
+    previous: 'Forrige',
+    next: 'Neste',
+    sectionNav: 'Bla mellom artikler',
+    noArticles: 'Ingen artikler ennå.',
   },
   home: {
     welcomeTitle: 'Velkommen til Shorin-Ryu Wiki',

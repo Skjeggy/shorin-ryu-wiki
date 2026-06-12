@@ -46,7 +46,7 @@ const entries = (await getCollection(section, ({ data }) => data.lang === lang))
   </header>
 
   {entries.length === 0 ? (
-    <p class="text-ink-500 italic">Ingen artikler ennå.</p>
+    <p class="text-ink-500 italic">{t.article.noArticles}</p>
   ) : (
     <ul class="grid sm:grid-cols-2 gap-4">
       {entries.map((entry) => (

@@ -74,6 +74,10 @@ export const en: UIStrings = {
     backTo: 'Back to',
     edit: 'Suggest an edit',
     lastUpdated: 'Last updated',
+    previous: 'Previous',
+    next: 'Next',
+    sectionNav: 'Browse articles',
+    noArticles: 'No articles yet.',
   },
   home: {
     welcomeTitle: 'Welcome to the Shorin-Ryu Wiki',

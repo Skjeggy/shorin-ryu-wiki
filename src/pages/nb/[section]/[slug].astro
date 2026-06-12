@@ -26,26 +26,47 @@ export async function getStaticPaths() {
   ];
   const all = await Promise.all(
     sections.map(async (section) => {
-      const entries = await getCollection(section, ({ data }) => data.lang === 'nb');
-      return entries.map((entry) => ({
-        params: { section, slug: entry.slug },
-        props: { entry },
-      }));
+      const entries = (await getCollection(section, ({ data }) => data.lang === 'nb'))
+        .slice()
+        .sort((a, b) => {
+          const ao = a.data.order ?? 999;
+          const bo = b.data.order ?? 999;
+          if (ao !== bo) return ao - bo;
+          return a.data.title.localeCompare(b.data.title, 'nb');
+        });
+      return entries.map((entry, i) => {
+        const prevEntry = entries[i - 1];
+        const nextEntry = entries[i + 1];
+        const toNav = (e?: (typeof entries)[number]) =>
+          e ? { title: e.data.title, slug: e.slug } : undefined;
+        return {
+          params: { section, slug: entry.slug },
+          props: { entry, prev: toNav(prevEntry), next: toNav(nextEntry) },
+        };
+      });
     })
   );
   return all.flat();
 }
 
-interface Props {
-  entry: AnyEntry;
+interface NavLink {
+  title: string;
+  slug: string;
 }
 
-const { entry } = Astro.props;
+interface Props {
+  entry: AnyEntry;
+  prev?: NavLink;
+  next?: NavLink;
+}
+
+const { entry, prev, next } = Astro.props;
 if (!sectionOrder.includes(entry.data.section)) {
   throw new Error(`Unknown section in entry: ${entry.data.section}`);
 }
-const { Content } = await entry.render();
+const { Content, headings } = await entry.render();
 const data = entry.data;
+const toc = headings.filter((h) => h.depth === 2 || h.depth === 3);
 ---
 
 <ArticleLayout
@@ -56,8 +77,12 @@ const data = entry.data;
   tags={data.tags}
   related={data.related}
   image={data.image}
+  video={'video' in data ? data.video : undefined}
   lang={lang}
   updated={data.updated}
+  prev={prev}
+  next={next}
+  headings={toc}
 >
   <Content />
 </ArticleLayout>
