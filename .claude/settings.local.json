@@ -14,7 +14,9 @@
       "Bash(ls dist/sitemap*.xml)",
       "mcp__Claude_Preview__preview_start",
       "Bash(xxd public/favicon.ico)",
-      "Bash(npx astro:*)"
+      "Bash(npx astro:*)",
+      "Bash(mv favicon.png public/favicon.png)",
+      "Bash(ls -la public/favicon*)"
     ]
   }
 }
