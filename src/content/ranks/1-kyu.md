@@ -10,7 +10,7 @@ related:
   - "ranks/2-kyu"
   - "ranks/shodan"
   - "kata/bassai-dai"
-  - "ridori/oversikt"
+  - "randori/oversikt"
   - "training-sessions/bunkai-partnerarbeid"
 requiredKata:
   - "Pinan Godan"

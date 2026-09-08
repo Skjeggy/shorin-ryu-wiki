@@ -9,7 +9,7 @@ related:
   - "ranks/shodan"
   - "ranks/nidan"
   - "kata/pinan-shodan"
-  - "ridori/oversikt"
+  - "randori/oversikt"
   - "training-sessions/bunkai-partnerarbeid"
 keyPoints:
   - "Alle bevegelser foregår langs én sidelinje i naihanshin-dachi."
@@ -69,10 +69,10 @@ Den symmetriske gjentakelsen mot begge sider er ikke koreografi — den
 lærer at samme prinsipp gjelder uansett angrepsside. Bruk det som
 drillgrunnlag.
 
-## Forholdet til Ridori
+## Forholdet til Randori
 
 Naihanshin-bevegelsene er grunnlaget for mange prinsipper i
-[Ridori](../ridori/oversikt/): arbeid på innsiden av motstanderens
+[Randori](../randori/oversikt/): arbeid på innsiden av motstanderens
 linje uten å bryte sin egen senterstabilitet.
 
 ## Naihanshin Nidan og Sandan

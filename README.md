@@ -16,7 +16,7 @@ Wikien har følgende seksjoner (under `/src/content/`):
 | `kata/`              | Detaljerte kata-beskrivelser med bunkai              |
 | `techniques/`        | Stillinger, slag, blokkeringer, spark                |
 | `bunkai/`            | Frittstående bunkai-artikler                         |
-| `ridori/`            | Ridori — prinsipper og anvendelser                   |
+| `randori/`           | Randori — prinsipper og anvendelser                  |
 | `training-sessions/` | Strukturerte øktplaner                               |
 
 ## Komme i gang lokalt

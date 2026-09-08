@@ -3,7 +3,7 @@ export const nb = {
     title: 'Shorin-Ryu Wiki',
     tagline: 'En åpen kunnskapsbase om Shorin-Ryu karate',
     description:
-      'Kunnskapsbase om Shorin-Ryu karate: rang, kata, teknikker, bunkai, Ridori og treningsøkter.',
+      'Kunnskapsbase om Shorin-Ryu karate: rang, kata, teknikker, bunkai, Randori og treningsøkter.',
   },
   nav: {
     home: 'Hjem',
@@ -11,7 +11,7 @@ export const nb = {
     kata: 'Kata',
     techniques: 'Teknikker',
     bunkai: 'Bunkai',
-    ridori: 'Ridori',
+    randori: 'Randori',
     trainingSessions: 'Treningsøkter',
     about: 'Om stilen',
     search: 'Søk',
@@ -37,9 +37,9 @@ export const nb = {
       title: 'Bunkai',
       description: 'Anvendelser og tolkninger av bevegelsene i kata.',
     },
-    ridori: {
-      title: 'Ridori',
-      description: 'Prinsipper og anvendelser av Ridori i Shorin-Ryu.',
+    randori: {
+      title: 'Randori',
+      description: 'Prinsipper og anvendelser av Randori i Shorin-Ryu.',
     },
     'training-sessions': {
       title: 'Treningsøkter',
@@ -78,7 +78,7 @@ export const nb = {
   home: {
     welcomeTitle: 'Velkommen til Shorin-Ryu Wiki',
     welcomeBody:
-      'Denne wikien samler kunnskap om Shorin-Ryu karate: kata, teknikker, bunkai, Ridori, gradskrav og strukturerte treningsøkter. Innholdet er ment som en levende ressurs som utøvere og instruktører kan bygge videre på.',
+      'Denne wikien samler kunnskap om Shorin-Ryu karate: kata, teknikker, bunkai, Randori, gradskrav og strukturerte treningsøkter. Innholdet er ment som en levende ressurs som utøvere og instruktører kan bygge videre på.',
     exploreSections: 'Utforsk seksjoner',
     latestUpdates: 'Siste oppdateringer',
     getStarted: 'Kom i gang',

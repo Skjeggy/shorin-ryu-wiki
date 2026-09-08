@@ -5,12 +5,12 @@ order: 3
 lang: nb
 duration: "90 minutter"
 level: "Avansert / 2. kyu og oppover"
-focus: "Bunkai fra Naihanshin Shodan, kontroll og overgang til Ridori"
+focus: "Bunkai fra Naihanshin Shodan, kontroll og overgang til Randori"
 description: "En partnerintensiv økt for høyere kyu-elever og dan-grader. Bygger bro mellom kata og funksjonell anvendelse."
-tags: ["bunkai", "økt", "naihanchi", "ridori", "avansert"]
+tags: ["bunkai", "økt", "naihanchi", "randori", "avansert"]
 related:
   - "kata/naihanshin-shodan"
-  - "ridori/oversikt"
+  - "randori/oversikt"
   - "ranks/1-kyu"
   - "ranks/shodan"
 updated: 2025-10-12
@@ -20,7 +20,7 @@ updated: 2025-10-12
 
 Trene anvendelser fra **Naihanshin Shodan** med fokus på struktur,
 balansebrudd og overgang. Mot slutten av økten introduseres elementer
-av **Ridori** for å vise hvordan bunkai-sekvensene kan flyte sammen.
+av **Randori** for å vise hvordan bunkai-sekvensene kan flyte sammen.
 
 Forutsetninger:
 
@@ -83,9 +83,9 @@ Korrigeringspunkter:
   balansebruddet, ikke kraften i sparket.
 - Lyt etter «klikk»-følelsen når strukturene er på plass.
 
-### Blokk 4 — bro til Ridori (15 min)
+### Blokk 4 — bro til Randori (15 min)
 
-Se [Ridori — oversikt](../ridori/oversikt/).
+Se [Randori — oversikt](../randori/oversikt/).
 
 - Kombinere blokk 2 og blokk 3 til én flytende sekvens.
 - Partner A starter med slag. B utfører hiki-uke (blokk 2). A
@@ -93,7 +93,7 @@ Se [Ridori — oversikt](../ridori/oversikt/).
   hekten (blokk 3).
 - Trenes i samarbeidsmodus, ikke konkurranse.
 
-Senseis poeng: Ridori ikke handler om å «velge riktig» teknikk, men om
+Senseis poeng: Randori ikke handler om å «velge riktig» teknikk, men om
 å la én bevegelse naturlig oppstå fra resultatet av forrige.
 
 ### Blokk 5 — fri repetisjon (5 min)
@@ -104,7 +104,7 @@ Pargrupper velger fritt hvilken av de tre delene de vil repetere.
 
 - Felles strekking — hofter, rygg, skuldre.
 - Kort gjennomgang av nye begreper: hva er forskjellen mellom bunkai
-  og Ridori, sett i lys av dagens økt?
+  og Randori, sett i lys av dagens økt?
 - Avsluttende **seiza** og rei.
 
 ## Senseis fokus

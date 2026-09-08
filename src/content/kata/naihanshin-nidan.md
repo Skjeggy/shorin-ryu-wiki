@@ -9,7 +9,7 @@ related:
   - "ranks/nidan"
   - "kata/naihanshin-shodan"
   - "kata/naihanshin-sandan"
-  - "ridori/oversikt"
+  - "randori/oversikt"
 keyPoints:
   - "Samme sidelengs embusen som Naihanshin Shodan."
   - "Introduserer nye håndteknikker som ikke finnes i Shodan."

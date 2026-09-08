@@ -7,7 +7,7 @@ description: "Frittstående bunkai-artikkel: anvendelsen av hiki-uke-bevegelsen 
 tags: ["bunkai", "naihanchi", "hiki-uke", "nærkamp"]
 related:
   - "kata/naihanshin-shodan"
-  - "ridori/oversikt"
+  - "randori/oversikt"
   - "training-sessions/bunkai-partnerarbeid"
 updated: 2025-10-12
 ---
@@ -65,7 +65,7 @@ beskrivelsen og treningsplanen for
 
 ## Variasjoner
 
-Som angitt i [Ridori-oversikten](../ridori/oversikt/), kan denne
+Som angitt i [Randori-oversikten](../randori/oversikt/), kan denne
 anvendelsen flyte naturlig over i andre kontrollsekvenser hvis
 partneren beveger seg. Typiske overganger:
 

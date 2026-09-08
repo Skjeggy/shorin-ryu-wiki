@@ -9,7 +9,7 @@ related:
   - "ranks/nidan"
   - "kata/naihanshin-nidan"
   - "kata/naihanshin-shodan"
-  - "ridori/oversikt"
+  - "randori/oversikt"
 keyPoints:
   - "Den mest avanserte av de tre Naihanshin-kataene."
   - "Krever fullstendig mestring av Shodan og Nidan som grunnlag."
@@ -52,4 +52,4 @@ Der Shodan og Nidan introduserer prinsipper, handler Sandan om å gå dypere. Br
 | Naihanshin Nidan | Teknisk bredde, nye håndteknikker | Nidan (2. dan) |
 | Naihanshin Sandan | Syntese, dybde, kompleksitet | Nidan (2. dan) |
 
-Se også [Ridori — oversikt](../ridori/oversikt/) for hvordan Naihanshin-prinsippene videreføres i flytende partnerarbeid.
+Se også [Randori — oversikt](../randori/oversikt/) for hvordan Naihanshin-prinsippene videreføres i flytende partnerarbeid.

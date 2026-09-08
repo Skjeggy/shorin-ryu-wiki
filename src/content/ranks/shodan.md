@@ -11,7 +11,7 @@ related:
   - "ranks/nidan"
   - "kata/bassai-dai"
   - "kata/naihanshin-shodan"
-  - "ridori/oversikt"
+  - "randori/oversikt"
 requiredKata:
   - "Bassai Dai"
   - "Bassai Sho"

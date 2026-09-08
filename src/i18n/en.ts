@@ -8,7 +8,7 @@ export const en: UIStrings = {
     title: 'Shorin-Ryu Wiki',
     tagline: 'An open knowledge base on Shorin-Ryu karate',
     description:
-      'Knowledge base for Shorin-Ryu karate: ranks, kata, techniques, bunkai, Ridori and training sessions.',
+      'Knowledge base for Shorin-Ryu karate: ranks, kata, techniques, bunkai, Randori and training sessions.',
   },
   nav: {
     home: 'Home',
@@ -16,7 +16,7 @@ export const en: UIStrings = {
     kata: 'Kata',
     techniques: 'Techniques',
     bunkai: 'Bunkai',
-    ridori: 'Ridori',
+    randori: 'Randori',
     trainingSessions: 'Training sessions',
     about: 'About the style',
     search: 'Search',
@@ -42,9 +42,9 @@ export const en: UIStrings = {
       title: 'Bunkai',
       description: 'Applications and interpretations of the movements in kata.',
     },
-    ridori: {
-      title: 'Ridori',
-      description: 'Principles and applications of Ridori within Shorin-Ryu.',
+    randori: {
+      title: 'Randori',
+      description: 'Principles and applications of Randori within Shorin-Ryu.',
     },
     'training-sessions': {
       title: 'Training sessions',
@@ -83,7 +83,7 @@ export const en: UIStrings = {
   home: {
     welcomeTitle: 'Welcome to the Shorin-Ryu Wiki',
     welcomeBody:
-      'This wiki gathers knowledge about Shorin-Ryu karate: kata, techniques, bunkai, Ridori, grading requirements and structured training sessions. The content is intended as a living resource that practitioners and instructors can build on.',
+      'This wiki gathers knowledge about Shorin-Ryu karate: kata, techniques, bunkai, Randori, grading requirements and structured training sessions. The content is intended as a living resource that practitioners and instructors can build on.',
     exploreSections: 'Explore sections',
     latestUpdates: 'Latest updates',
     getStarted: 'Get started',

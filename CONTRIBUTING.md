@@ -13,7 +13,7 @@ ny artikkel, redigerer en eksisterende, og laster opp bilder.
    | Kata                 | `src/content/kata/`          |
    | Teknikker            | `src/content/techniques/`    |
    | Bunkai (frittstående)| `src/content/bunkai/`        |
-   | Ridori               | `src/content/ridori/`        |
+   | Randori              | `src/content/randori/`       |
    | Treningsøkter        | `src/content/training-sessions/` |
 
 2. **Opprett en ny `.md`-fil**. Filnavnet blir URL-slug, så bruk små

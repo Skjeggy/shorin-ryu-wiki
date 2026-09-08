@@ -8,7 +8,7 @@ const baseSchema = z.object({
     'kata',
     'techniques',
     'bunkai',
-    'ridori',
+    'randori',
     'training-sessions',
     'ressurser',
   ]),
@@ -61,10 +61,10 @@ const bunkai = defineCollection({
   }),
 });
 
-const ridori = defineCollection({
+const randori = defineCollection({
   type: 'content',
   schema: baseSchema.extend({
-    section: z.literal('ridori'),
+    section: z.literal('randori'),
   }),
 });
 
@@ -90,7 +90,7 @@ export const collections = {
   kata,
   techniques,
   bunkai,
-  ridori,
+  randori,
   'training-sessions': trainingSessions,
   ressurser,
 };
