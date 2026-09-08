@@ -33,12 +33,16 @@ Føttene parallelle, skulderbredde fra hverandre, knærne lett bøyd.
 Brukes som utgangsposisjon før og etter kata, og som hverdagsstilling
 i kihon-trening.
 
+<img src="/shorin-ryu-wiki/images/techniques/dachi-shizen.svg" alt="Diagram av shizen-dachi sett ovenfra: to parallelle føtter i skulderbredde, vekt jevnt fordelt" class="rounded-lg border border-ink-200 dark:border-ink-700 mx-auto max-w-xs" />
+
 **Vanlig feil:** at vekten ligger på hælene. Sentrer over fotbuene.
 
 ### Heiko-dachi — parallell stilling
 
 Samme som shizen-dachi, men med eksplisitt fokus på at fotbladene står
 helt parallelt. Brukes mye i kihon-rekker.
+
+<img src="/shorin-ryu-wiki/images/techniques/dachi-heiko.svg" alt="Diagram av heiko-dachi sett ovenfra: to fotblad helt parallelt" class="rounded-lg border border-ink-200 dark:border-ink-700 mx-auto max-w-xs" />
 
 ### Zenkutsu-dachi — forlent stilling
 
@@ -48,6 +52,8 @@ skulderbredde, dybden ca. 1 skulderbredde.
 
 **Anvendelse:** levering av lange, gjennomtrengende slag (oi-zuki,
 gyaku-zuki) og fremstegsblokker.
+
+<img src="/shorin-ryu-wiki/images/techniques/dachi-zenkutsu.svg" alt="Diagram av zenkutsu-dachi sett ovenfra: fremre fot rett frem, bakre fot 30 grader ut, lengde ca. 1,5 og dybde ca. 1 skulderbredde" class="rounded-lg border border-ink-200 dark:border-ink-700 mx-auto max-w-xs" />
 
 **Vanlig feil:** for lang, statisk stilling som gjør forflytning treg.
 I Shorin-Ryu er zenkutsu noe kortere og mer dynamisk enn i andre
@@ -61,6 +67,8 @@ fremre fot peker fremover. Knærne bøyd.
 **Anvendelse:** forsvar med shuto-uke, trekking av motstander ut av
 balanse, kontroll.
 
+<img src="/shorin-ryu-wiki/images/techniques/dachi-kokutsu.svg" alt="Diagram av kokutsu-dachi sett ovenfra: fremre fot rett frem, bakre fot vinklet 90 grader ut, vekt ca. 70/30 bak" class="rounded-lg border border-ink-200 dark:border-ink-700 mx-auto max-w-xs" />
+
 **Vanlig feil:** å la fremre fot bære for mye vekt — du mister da
 muligheten til å sparke eller skritte raskt med fremre ben.
 
@@ -71,6 +79,8 @@ inn og vekten 50/50. I Shorin-Ryu vinkles tærne lett innover, ulikt
 shotokans firkantede kiba-dachi.
 
 **Anvendelse:** nærkamp, sideforflytning, **Naihanchi-kataene**.
+
+<img src="/shorin-ryu-wiki/images/techniques/dachi-naihanchi.svg" alt="Diagram av naihanchi-dachi sett ovenfra: bredere enn skulderbredde, tær lett innover, vekt jevnt fordelt" class="rounded-lg border border-ink-200 dark:border-ink-700 mx-auto max-w-xs" />
 
 **Vanlig feil:** å rette hoftene fremover — i naihanchi-dachi er
 hofta sidevendt, men kan rotere i bevegelsen.
@@ -83,6 +93,8 @@ hurtig stegsbytte.
 
 **Anvendelse:** distansering, lett tilgang til mae-geri med fremre ben.
 
+<img src="/shorin-ryu-wiki/images/techniques/dachi-neko-ashi.svg" alt="Diagram av neko-ashi-dachi sett ovenfra: bakre fot bærer ca. 90 prosent av vekten, fremre fot lett med hælen løftet" class="rounded-lg border border-ink-200 dark:border-ink-700 mx-auto max-w-xs" />
+
 **Vanlig feil:** å ikke holde fremre kne lett bøyd og hælen virkelig
 løftet.
 
@@ -91,6 +103,8 @@ løftet.
 Føttene i samme avstand som hofter, fremre fot lett rotert inn, bakre
 fot rett. Brukes mer sparsomt i Shorin-Ryu enn i Goju-Ryu, men inngår
 i visse drilltyper og nærkampsanvendelser.
+
+<img src="/shorin-ryu-wiki/images/techniques/dachi-sanchin.svg" alt="Diagram av sanchin-dachi sett ovenfra: føttene i hoftebredde, fremre fot lett rotert inn, bakre fot rett frem" class="rounded-lg border border-ink-200 dark:border-ink-700 mx-auto max-w-xs" />
 
 ## Hvordan trene stillingene
 

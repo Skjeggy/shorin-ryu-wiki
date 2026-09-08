@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 320" width="340" height="320" role="img" aria-labelledby="title desc">
+  <title id="title">Shizen-dachi sett ovenfra</title>
+  <desc id="desc">To parallelle føtter i skulderbredde, vekten jevnt fordelt mellom dem.</desc>
+  <style>
+    text { font-family: 'Inter', system-ui, sans-serif; }
+    .floor { fill:#f7f5f1; stroke:#d7cdba; stroke-width:2; }
+    .centerline { stroke:#d7cdba; stroke-width:1.5; stroke-dasharray:4 4; }
+    .foot { fill:#463d31; fill-opacity:.14; stroke:#463d31; stroke-width:2; }
+    .label { font-size:11px; fill:#5f5240; }
+    .legend { font-size:12px; fill:#5f5240; }
+    .small { font-size:9px; fill:#998769; }
+  </style>
+
+  <rect class="floor" x="25" y="35" width="290" height="235" rx="10"/>
+  <line class="centerline" x1="170" y1="35" x2="170" y2="270"/>
+  <polygon points="170,10 164,20 176,20" fill="#7d6c52"/>
+  <text x="170" y="24" text-anchor="middle" class="label">FRAM</text>
+
+  <defs>
+    <path id="foot" d="M0,-33 C9,-33 12,-24 12,-13 C12,2 9,12 8,20 C7,27 4,33 0,33 C-4,33 -7,27 -8,20 C-9,12 -12,2 -12,-13 C-12,-24 -9,-33 0,-33 Z"/>
+  </defs>
+
+  <use href="#foot" class="foot" transform="translate(131,155) rotate(0)"/>
+  <use href="#foot" class="foot" transform="translate(209,155) rotate(0)"/>
+
+  <line x1="131" y1="205" x2="209" y2="205" stroke="#7d6c52" stroke-width="1.5"/>
+  <line x1="131" y1="199" x2="131" y2="211" stroke="#7d6c52" stroke-width="1.5"/>
+  <line x1="209" y1="199" x2="209" y2="211" stroke="#7d6c52" stroke-width="1.5"/>
+  <text x="170" y="222" text-anchor="middle" class="label">1 skulderbredde</text>
+
+  <text x="170" y="292" text-anchor="middle" class="legend">Føttene parallelle · vekt jevnt fordelt (50/50)</text>
+  <text x="170" y="308" text-anchor="middle" class="legend">Knærne lett bøyd · utgangsstilling i kata</text>
+  <text x="308" y="282" text-anchor="end" class="small">sett ovenfra · skjematisk</text>
+</svg>

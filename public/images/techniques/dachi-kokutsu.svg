@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 320" width="340" height="320" role="img" aria-labelledby="title desc">
+  <title id="title">Kokutsu-dachi sett ovenfra</title>
+  <desc id="desc">Fremre fot peker rett frem, bakre fot vinklet 90 grader ut. Vekten er ca. 70 prosent på bakre ben.</desc>
+  <style>
+    text { font-family: 'Inter', system-ui, sans-serif; }
+    .floor { fill:#f7f5f1; stroke:#d7cdba; stroke-width:2; }
+    .centerline { stroke:#d7cdba; stroke-width:1.5; stroke-dasharray:4 4; }
+    .foot-front { fill:#8b1d1d; fill-opacity:.18; stroke:#8b1d1d; stroke-width:2; }
+    .foot-back { fill:#463d31; fill-opacity:.14; stroke:#463d31; stroke-width:2; }
+    .ref { stroke:#b9aa8e; stroke-width:1.5; stroke-dasharray:2 3; }
+    .label { font-size:11px; fill:#5f5240; }
+    .labelFront { font-size:11px; fill:#8b1d1d; font-weight:600; }
+    .labelBack { font-size:11px; fill:#463d31; font-weight:600; }
+    .legend { font-size:12px; fill:#5f5240; }
+    .small { font-size:9px; fill:#998769; }
+  </style>
+
+  <rect class="floor" x="25" y="35" width="290" height="235" rx="10"/>
+  <line class="centerline" x1="170" y1="35" x2="170" y2="270"/>
+  <polygon points="170,10 164,20 176,20" fill="#7d6c52"/>
+  <text x="170" y="24" text-anchor="middle" class="label">FRAM</text>
+
+  <defs>
+    <path id="foot" d="M0,-33 C9,-33 12,-24 12,-13 C12,2 9,12 8,20 C7,27 4,33 0,33 C-4,33 -7,27 -8,20 C-9,12 -12,2 -12,-13 C-12,-24 -9,-33 0,-33 Z"/>
+  </defs>
+
+  <use href="#foot" class="foot-front" transform="translate(139,110) rotate(0)"/>
+  <use href="#foot" class="foot-back" transform="translate(201,180) rotate(90)"/>
+
+  <text x="139" y="75" text-anchor="middle" class="labelFront">Fremre</text>
+  <text x="201" y="222" text-anchor="middle" class="labelBack">Bakre</text>
+
+  <line class="ref" x1="201" y1="180" x2="201" y2="150"/>
+  <text x="216" y="164" class="label">90°</text>
+
+  <rect x="90" y="243" width="160" height="14" rx="3" fill="none" stroke="#b9aa8e" stroke-width="1.5"/>
+  <rect x="90" y="243" width="48" height="14" rx="3" fill="#d97a7a" fill-opacity=".55"/>
+  <rect x="138" y="243" width="112" height="14" rx="3" fill="#463d31" fill-opacity=".3"/>
+  <text x="114" y="238" text-anchor="middle" class="label">30% fremre</text>
+  <text x="194" y="238" text-anchor="middle" class="label">70% bakre</text>
+
+  <text x="170" y="288" text-anchor="middle" class="legend">Vekten primært over bakre ben (ca. 70/30)</text>
+  <text x="170" y="304" text-anchor="middle" class="legend">Brukes til shuto-uke og trekking ut av balanse</text>
+  <text x="308" y="282" text-anchor="end" class="small">sett ovenfra · skjematisk</text>
+</svg>

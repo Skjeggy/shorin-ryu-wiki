@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 320" width="340" height="320" role="img" aria-labelledby="title desc">
+  <title id="title">Zenkutsu-dachi sett ovenfra</title>
+  <desc id="desc">Fremre fot peker rett frem, bakre fot 30 grader ut. Lengde ca. 1,5 skulderbredde, dybde ca. 1 skulderbredde.</desc>
+  <style>
+    text { font-family: 'Inter', system-ui, sans-serif; }
+    .floor { fill:#f7f5f1; stroke:#d7cdba; stroke-width:2; }
+    .centerline { stroke:#d7cdba; stroke-width:1.5; stroke-dasharray:4 4; }
+    .foot-front { fill:#8b1d1d; fill-opacity:.18; stroke:#8b1d1d; stroke-width:2; }
+    .foot-back { fill:#463d31; fill-opacity:.14; stroke:#463d31; stroke-width:2; }
+    .ref { stroke:#b9aa8e; stroke-width:1.5; stroke-dasharray:2 3; }
+    .label { font-size:11px; fill:#5f5240; }
+    .labelFront { font-size:11px; fill:#8b1d1d; font-weight:600; }
+    .labelBack { font-size:11px; fill:#463d31; font-weight:600; }
+    .legend { font-size:12px; fill:#5f5240; }
+    .small { font-size:9px; fill:#998769; }
+  </style>
+
+  <rect class="floor" x="25" y="35" width="290" height="235" rx="10"/>
+  <line class="centerline" x1="170" y1="35" x2="170" y2="270"/>
+  <polygon points="170,10 164,20 176,20" fill="#7d6c52"/>
+  <text x="170" y="24" text-anchor="middle" class="label">FRAM</text>
+
+  <defs>
+    <path id="foot" d="M0,-33 C9,-33 12,-24 12,-13 C12,2 9,12 8,20 C7,27 4,33 0,33 C-4,33 -7,27 -8,20 C-9,12 -12,2 -12,-13 C-12,-24 -9,-33 0,-33 Z"/>
+  </defs>
+
+  <use href="#foot" class="foot-front" transform="translate(131,95) rotate(0)"/>
+  <use href="#foot" class="foot-back" transform="translate(209,212) rotate(30)"/>
+
+  <text x="131" y="60" text-anchor="middle" class="labelFront">Fremre</text>
+  <text x="209" y="247" text-anchor="middle" class="labelBack">Bakre</text>
+
+  <line class="ref" x1="209" y1="212" x2="209" y2="182"/>
+  <text x="224" y="196" class="label">30°</text>
+
+  <line x1="150" y1="154" x2="190" y2="154" stroke="#2c2620" stroke-width="4" stroke-linecap="round"/>
+  <text x="170" y="147" text-anchor="middle" class="label">hofte fremover</text>
+
+  <line x1="131" y1="80" x2="209" y2="80" stroke="#7d6c52" stroke-width="1.5"/>
+  <line x1="131" y1="74" x2="131" y2="86" stroke="#7d6c52" stroke-width="1.5"/>
+  <line x1="209" y1="74" x2="209" y2="86" stroke="#7d6c52" stroke-width="1.5"/>
+  <text x="170" y="72" text-anchor="middle" class="label">dybde ≈ 1 skulderbredde</text>
+
+  <line x1="252" y1="95" x2="252" y2="212" stroke="#7d6c52" stroke-width="1.5"/>
+  <line x1="246" y1="95" x2="258" y2="95" stroke="#7d6c52" stroke-width="1.5"/>
+  <line x1="246" y1="212" x2="258" y2="212" stroke="#7d6c52" stroke-width="1.5"/>
+  <text x="262" y="150" class="label">lengde</text>
+  <text x="262" y="163" class="label">≈ 1,5 sb.</text>
+
+  <text x="170" y="292" text-anchor="middle" class="legend">Fremre ben bøyd, bakre ben strakt</text>
+  <text x="170" y="308" text-anchor="middle" class="legend">Brukes til lange, gjennomtrengende slag</text>
+  <text x="308" y="282" text-anchor="end" class="small">sett ovenfra · skjematisk</text>
+</svg>

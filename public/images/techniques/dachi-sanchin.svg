@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 320" width="340" height="320" role="img" aria-labelledby="title desc">
+  <title id="title">Sanchin-dachi sett ovenfra</title>
+  <desc id="desc">Føttene i hoftebredde, fremre fot lett rotert inn, bakre fot rett frem.</desc>
+  <style>
+    text { font-family: 'Inter', system-ui, sans-serif; }
+    .floor { fill:#f7f5f1; stroke:#d7cdba; stroke-width:2; }
+    .centerline { stroke:#d7cdba; stroke-width:1.5; stroke-dasharray:4 4; }
+    .foot-front { fill:#8b1d1d; fill-opacity:.18; stroke:#8b1d1d; stroke-width:2; }
+    .foot-back { fill:#463d31; fill-opacity:.14; stroke:#463d31; stroke-width:2; }
+    .label { font-size:11px; fill:#5f5240; }
+    .labelFront { font-size:11px; fill:#8b1d1d; font-weight:600; }
+    .labelBack { font-size:11px; fill:#463d31; font-weight:600; }
+    .legend { font-size:12px; fill:#5f5240; }
+    .small { font-size:9px; fill:#998769; }
+  </style>
+
+  <rect class="floor" x="25" y="35" width="290" height="235" rx="10"/>
+  <line class="centerline" x1="170" y1="35" x2="170" y2="270"/>
+  <polygon points="170,10 164,20 176,20" fill="#7d6c52"/>
+  <text x="170" y="24" text-anchor="middle" class="label">FRAM</text>
+
+  <defs>
+    <path id="foot" d="M0,-33 C9,-33 12,-24 12,-13 C12,2 9,12 8,20 C7,27 4,33 0,33 C-4,33 -7,27 -8,20 C-9,12 -12,2 -12,-13 C-12,-24 -9,-33 0,-33 Z"/>
+  </defs>
+
+  <use href="#foot" class="foot-front" transform="translate(150,130) rotate(15)"/>
+  <use href="#foot" class="foot-back" transform="translate(190,185) rotate(0)"/>
+
+  <text x="150" y="95" text-anchor="middle" class="labelFront">Fremre — lett inn</text>
+  <text x="190" y="227" text-anchor="middle" class="labelBack">Bakre — rett frem</text>
+
+  <line x1="128" y1="157" x2="128" y2="157" stroke="none"/>
+  <line x1="120" y1="130" x2="120" y2="185" stroke="#7d6c52" stroke-width="1.5"/>
+  <line x1="114" y1="130" x2="126" y2="130" stroke="#7d6c52" stroke-width="1.5"/>
+  <line x1="114" y1="185" x2="126" y2="185" stroke="#7d6c52" stroke-width="1.5"/>
+  <text x="108" y="160" text-anchor="end" class="label">hoftebredde</text>
+
+  <text x="170" y="292" text-anchor="middle" class="legend">Smalere stilling enn naihanchi-dachi</text>
+  <text x="170" y="308" text-anchor="middle" class="legend">Brukes sparsomt i Shorin-Ryu, i visse drilltyper</text>
+  <text x="308" y="282" text-anchor="end" class="small">sett ovenfra · skjematisk</text>
+</svg>
