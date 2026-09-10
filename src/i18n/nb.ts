@@ -12,6 +12,7 @@ export const nb = {
     techniques: 'Teknikker',
     bunkai: 'Bunkai',
     randori: 'Randori',
+    kobudo: 'Kobudo',
     trainingSessions: 'Treningsøkter',
     about: 'Om stilen',
     search: 'Søk',
@@ -40,6 +41,10 @@ export const nb = {
     randori: {
       title: 'Randori',
       description: 'Prinsipper og anvendelser av Randori i Shorin-Ryu.',
+    },
+    kobudo: {
+      title: 'Kobudo',
+      description: 'Våpentrening — bo (stav) og andre tradisjonelle okinawanske våpen.',
     },
     'training-sessions': {
       title: 'Treningsøkter',

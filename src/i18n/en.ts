@@ -17,6 +17,7 @@ export const en: UIStrings = {
     techniques: 'Techniques',
     bunkai: 'Bunkai',
     randori: 'Randori',
+    kobudo: 'Kobudo',
     trainingSessions: 'Training sessions',
     about: 'About the style',
     search: 'Search',
@@ -45,6 +46,10 @@ export const en: UIStrings = {
     randori: {
       title: 'Randori',
       description: 'Principles and applications of Randori within Shorin-Ryu.',
+    },
+    kobudo: {
+      title: 'Kobudo',
+      description: 'Weapons training — bo (staff) and other traditional Okinawan weapons.',
     },
     'training-sessions': {
       title: 'Training sessions',

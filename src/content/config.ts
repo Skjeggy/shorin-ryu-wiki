@@ -9,6 +9,7 @@ const baseSchema = z.object({
     'techniques',
     'bunkai',
     'randori',
+    'kobudo',
     'training-sessions',
     'ressurser',
   ]),
@@ -68,6 +69,18 @@ const randori = defineCollection({
   }),
 });
 
+const kobudo = defineCollection({
+  type: 'content',
+  schema: baseSchema.extend({
+    section: z.literal('kobudo'),
+    weapon: z
+      .enum(['bo', 'sai', 'tonfa', 'nunchaku', 'kama', 'annet'])
+      .optional(),
+    keyPoints: z.array(z.string()).default([]),
+    origin: z.string().optional(),
+  }),
+});
+
 const trainingSessions = defineCollection({
   type: 'content',
   schema: baseSchema.extend({
@@ -91,6 +104,7 @@ export const collections = {
   techniques,
   bunkai,
   randori,
+  kobudo,
   'training-sessions': trainingSessions,
   ressurser,
 };

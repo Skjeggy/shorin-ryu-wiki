@@ -22,6 +22,7 @@ export const sectionOrder = [
   'techniques',
   'bunkai',
   'randori',
+  'kobudo',
   'training-sessions',
   'ressurser',
 ] as const;

@@ -11,6 +11,7 @@ type AnyEntry =
   | CollectionEntry<'techniques'>
   | CollectionEntry<'bunkai'>
   | CollectionEntry<'randori'>
+  | CollectionEntry<'kobudo'>
   | CollectionEntry<'training-sessions'>
   | CollectionEntry<'ressurser'>;
 
@@ -21,6 +22,7 @@ export async function getStaticPaths() {
     'techniques',
     'bunkai',
     'randori',
+    'kobudo',
     'training-sessions',
     'ressurser',
   ];

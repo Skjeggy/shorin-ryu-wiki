@@ -14,6 +14,7 @@ ny artikkel, redigerer en eksisterende, og laster opp bilder.
    | Teknikker            | `src/content/techniques/`    |
    | Bunkai (frittstående)| `src/content/bunkai/`        |
    | Randori              | `src/content/randori/`       |
+   | Kobudo (våpen)       | `src/content/kobudo/`        |
    | Treningsøkter        | `src/content/training-sessions/` |
 
 2. **Opprett en ny `.md`-fil**. Filnavnet blir URL-slug, så bruk små
@@ -70,6 +71,7 @@ Alle artikler støtter disse feltene (se
 - **`kata/`**: `keyPoints`, `origin`.
 - **`techniques/`**: `category` (`stillinger` / `slag` / `blokkeringer` / `spark` / `annet`).
 - **`bunkai/`**: `kata` (referanse).
+- **`kobudo/`**: `weapon` (`bo` / `sai` / `tonfa` / `nunchaku` / `kama` / `annet`), `keyPoints`, `origin`.
 - **`training-sessions/`**: `duration`, `level`, `focus`.
 
 ## Relaterte artikler

@@ -17,6 +17,7 @@ Wikien har følgende seksjoner (under `/src/content/`):
 | `techniques/`        | Stillinger, slag, blokkeringer, spark                |
 | `bunkai/`            | Frittstående bunkai-artikler                         |
 | `randori/`           | Randori — prinsipper og anvendelser                  |
+| `kobudo/`            | Våpentrening — bo (stav) og andre okinawanske våpen  |
 | `training-sessions/` | Strukturerte øktplaner                               |
 
 ## Komme i gang lokalt
