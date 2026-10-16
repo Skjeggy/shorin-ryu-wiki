@@ -1,8 +1,7 @@
 ---
 title: "Ord og uttrykk"
-section: techniques
-category: annet
-order: 99
+section: ressurser
+order: 3
 lang: nb
 description: "Japanske begreper brukt i Shorinryu Kenshinkai, med norsk forklaring. Nyttig oppslagsverk under trening og gradering."
 tags: ["terminologi", "japansk", "referanse"]
